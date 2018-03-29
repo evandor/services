@@ -1,9 +1,7 @@
-package hello;
+package io.skysail.service.monitor.repositories;
 
+import io.skysail.service.monitor.domain.Measurement;
 import org.springframework.data.repository.CrudRepository;
-
-// This will be AUTO IMPLEMENTED by Spring into a Bean called userRepository
-// CRUD refers Create, Read, Update, Delete
 
 public interface MeasurementRepository extends CrudRepository<Measurement, Long> {
 
