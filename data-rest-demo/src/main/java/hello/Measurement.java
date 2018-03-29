@@ -12,13 +12,14 @@ import javax.persistence.Id;
 @Entity
 @Getter
 @Setter
-public class Person {
+public class Measurement {
 
     @Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
 
-	private String firstName;
-	private String lastName;
+    private String name;
+	private Long duration;
+	private Long timestamp;
 
 }
