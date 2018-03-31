@@ -4,11 +4,10 @@ package io.skysail.service.monitor.domain;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Getter
@@ -17,10 +16,13 @@ public class Monitor {
 
     @Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private long monitor_id;
+	private long id;
 
     private String name;
 
 	private URL url;
+
+	@OneToMany(mappedBy = "monitor", orphanRemoval = true, cascade = CascadeType.PERSIST)
+	private List<Measurement> reviews = new ArrayList<>();
 
 }

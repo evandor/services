@@ -1,5 +1,6 @@
-package io.skysail.service.monitor.hello;
+package io.skysail.service.monitor.controller;
 
+import io.skysail.service.monitor.domain.ConnectionResult;
 import io.skysail.service.monitor.domain.Measurement;
 import io.skysail.service.monitor.domain.Monitor;
 import io.skysail.service.monitor.repositories.MeasurementRepository;
@@ -7,18 +8,17 @@ import io.skysail.service.monitor.repositories.MonitorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.UnknownHostException;
 import java.util.Date;
+import java.util.Optional;
 
 @Controller
-@RequestMapping(path = "/demo") // This means URL's start with /demo (after Application path)
+@RequestMapping(path = "/demo") // This means URL's start with /demo (after UserManagementApplication path)
 public class MainController {
 
     @Autowired
@@ -26,14 +26,6 @@ public class MainController {
 
     @Autowired
     private MonitorRepository monitorRepository;
-
-
-//    @GetMapping(path = "/all")
-//    public @ResponseBody
-//    Iterable<User> getAllUsers() {
-//        // This returns a JSON or XML with the users
-//        return userRepository.findAll();
-//    }
 
     @Scheduled(fixedRate = 30000)
     public void reportCurrentTime() {
@@ -47,7 +39,7 @@ public class MainController {
     private void makeMeasurement(Monitor monitor) {
         long start = System.currentTimeMillis();
         Measurement m = new Measurement();
-        m.setMonitor(monitor);
+        m.setMonitor(monitor.getId());
         m.setTimestamp(new Date().getTime());
         m.setName("hi");
 
@@ -72,11 +64,42 @@ public class MainController {
         measurementRepository.save(m);
     }
 
-    @GetMapping(path = "/m")
+    @GetMapping(path = "/measurements")
     public @ResponseBody
     Iterable<Measurement> getAllMeasurements() {
         return measurementRepository.findAll();
     }
 
+    @GetMapping(path = "/measurements/{id}")
+    public @ResponseBody
+    Optional<Measurement> getMeasurement(@PathVariable Long id) {
+        return measurementRepository.findById(id);
+    }
 
+    @GetMapping(path = "/monitors")
+    public @ResponseBody
+    Iterable<Monitor> getAllMonitors() {
+        return monitorRepository.findAll();
+    }
+
+    @PostMapping(path = "/monitors/")
+    public void post(@ModelAttribute("monitor") Monitor monitor) {
+        monitorRepository.save(monitor);
+    }
+
+    @GetMapping(path = "/monitors/{id}")
+    public @ResponseBody
+    Optional<Monitor> getMonitor(@PathVariable Long id) {
+        return monitorRepository.findById(id);
+    }
+
+    @PutMapping(path = "/monitors/{id}/")
+    public void put(@ModelAttribute("monitor") Monitor monitor) {
+        monitorRepository.save(monitor);
+    }
+
+    @DeleteMapping(path = "/monitors/{id}/")
+    public void delete(@PathVariable Long id) {
+        monitorRepository.deleteById(id);
+    }
 }

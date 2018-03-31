@@ -1,7 +1,6 @@
 package io.skysail.service.monitor.domain;
 
 
-import io.skysail.service.monitor.hello.ConnectionResult;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -14,11 +13,11 @@ public class Measurement {
 
     @Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private long id;
+	private long measurementId;
 
-    @ManyToOne
-    @JoinColumn(name = "monitor_id")
-    private Monitor monitor;
+//    @ManyToOne(cascade = CascadeType.REMOVE)
+//    @JoinColumn(name = "id")
+    private Long monitor;
 
     private String name;
 	private Long duration;

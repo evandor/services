@@ -1,4 +1,4 @@
-package io.skysail.service.monitor.hello;
+package io.skysail.service.monitor.domain;
 
 public enum ConnectionResult {
     SUCCESS,
