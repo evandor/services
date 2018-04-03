@@ -23,6 +23,6 @@ public class Monitor {
 	private URL url;
 
 	@OneToMany(mappedBy = "monitor", orphanRemoval = true, cascade = CascadeType.PERSIST)
-	private List<Measurement> reviews = new ArrayList<>();
+	private List<Measurement> measurements = new ArrayList<>();
 
 }

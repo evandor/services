@@ -27,13 +27,9 @@ public class MainController {
     @Autowired
     private MonitorRepository monitorRepository;
 
-    @Scheduled(fixedRate = 30000)
+    @Scheduled(fixedRate = 60000)
     public void reportCurrentTime() {
-
-        System.out.println("making new measurements at " + new Date());
-        monitorRepository.findAll().forEach(monitor -> {
-            makeMeasurement(monitor);
-        });
+        monitorRepository.findAll().forEach(this::makeMeasurement);
     }
 
     private void makeMeasurement(Monitor monitor) {

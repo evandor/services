@@ -13,7 +13,7 @@ public class Measurement {
 
     @Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private long measurementId;
+	private long id;
 
 //    @ManyToOne(cascade = CascadeType.REMOVE)
 //    @JoinColumn(name = "id")
