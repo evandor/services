@@ -1,0 +1,11 @@
+products:
+   src/main/scala/test/Test.scala -> build/classes/scala/main/test/Test$.class
+   src/main/scala/test/Test.scala -> build/classes/scala/main/test/Test.class
+binary dependencies:
+   src/main/scala/test/Test.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/test/Test.scala -> /Users/carsten/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
+source dependencies:
+external dependencies:
+class names:
+   src/main/scala/test/Test.scala -> test.Test
+   src/main/scala/test/Test.scala -> test.Test$
