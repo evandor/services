@@ -7,12 +7,14 @@ buildscript {
     }
 }
 
-apply plugin: 'java'
 apply plugin: 'scala'
+apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
+
+apply from: "$rootProject.projectDir/gradle/preamble.gradle"
 
 bootJar {
     baseName = 'skysail-services-monitor'
@@ -36,7 +38,7 @@ dependencies {
     compile 'mysql:mysql-connector-java'
     compile("com.h2database:h2") // not runtime as there's the console endpoint
 
-    compileOnly('org.projectlombok:lombok')
+    //compileOnly('org.projectlombok:lombok')
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
 
@@ -45,11 +47,11 @@ dependencies {
 
 sourceSets {
     main {
-        java {
-            srcDirs = ['src/main/java']
-        }
         scala {
-            srcDirs = ['src/main/scala']
+            srcDirs = ['src/main/scala', 'src/main/java']
+        }
+        java {
+            srcDirs = []
         }
     }
     test {

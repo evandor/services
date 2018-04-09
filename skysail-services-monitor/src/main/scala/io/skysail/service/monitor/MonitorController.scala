@@ -4,8 +4,7 @@ import java.io.IOException
 import java.net.{HttpURLConnection, URL, UnknownHostException}
 import java.util.{Date, Optional}
 
-import io.skysail.service.monitor.domain.{ConnectionResult, Measurement, Monitor}
-import io.skysail.service.monitor.repositories.{MeasurementRepository, MonitorRepository}
+import io.skysail.service.monitor.domain.{ConnectionResult}
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.scheduling.annotation.Scheduled
 import org.springframework.stereotype.Controller
@@ -26,16 +25,16 @@ class MonitorController @Autowired()() {
   }
 
   @GetMapping(path = Array("/measurements"))
-  @ResponseBody def getAllMeasurements: Iterable[Measurement] = measurementRepository.findAll.asScala
+  @ResponseBody def getAllMeasurements: Iterable[Measurement2] = measurementRepository.findAll.asScala
 
   @GetMapping(path = Array("/measurements/{id}"))
-  @ResponseBody def getMeasurement(@PathVariable id: Long): Optional[Measurement] = measurementRepository.findById(id)
+  @ResponseBody def getMeasurement(@PathVariable id: Long): Optional[Measurement2] = measurementRepository.findById(id)
 
   @GetMapping(path = Array("/monitors"))
   @ResponseBody def getAllMonitors: Iterable[Monitor] = monitorRepository.findAll.asScala
 
   @PostMapping(path = Array("/monitors/"))
-  def post(@ModelAttribute("monitor") monitor: Monitor): Monitor =  monitorRepository.save(monitor)
+  def post(@ModelAttribute("monitor") monitor: Monitor): Monitor = monitorRepository.save(monitor)
 
   @GetMapping(path = Array("/monitors/{id}"))
   @ResponseBody
@@ -49,25 +48,23 @@ class MonitorController @Autowired()() {
 
   private def makeMeasurement(monitor: Monitor): Unit = {
     val start = System.currentTimeMillis
-    val m = new Measurement
-    m.setMonitor(monitor.getId)
-    m.setTimestamp(new Date().getTime)
-    m.setName("hi")
+    val m = new Measurement2("name")
+
     var connection: HttpURLConnection = null
-    try {
+//    try {
       connection = new URL("http://demo.test.skysail.io").openConnection.asInstanceOf[HttpURLConnection]
       connection.setRequestMethod("HEAD")
       val responseCode = connection.getResponseCode
-      if (responseCode != 200) m.setResult(ConnectionResult.FAILURE)
-      else m.setResult(ConnectionResult.SUCCESS)
-    } catch {
-      case uhe: UnknownHostException =>
-        m.setResult(ConnectionResult.UNKNOWN_HOST)
-      case e: IOException =>
-        e.printStackTrace()
-        m.setResult(ConnectionResult.TIMEOUT)
-    }
-    m.setDuration(System.currentTimeMillis - start)
+//      if (responseCode != 200) m.result = ConnectionResult.FAILURE
+//      else m.result = ConnectionResult.SUCCESS
+//    } catch {
+//      case uhe: UnknownHostException =>
+//        m.result = ConnectionResult.UNKNOWN_HOST
+//      case e: IOException =>
+//        e.printStackTrace()
+//        m.result = ConnectionResult.TIMEOUT
+//    }
+    //m.duration = System.currentTimeMillis - start
     measurementRepository.save(m)
   }
 
