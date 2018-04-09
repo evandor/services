@@ -14,6 +14,8 @@ gradle-app.setting
 ## Directory-based project format:
 .idea/
 
+.gradle/
+
 /**/phantomjsdriver.log
 
 # IntelliJ
