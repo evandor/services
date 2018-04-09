@@ -1,11 +1,29 @@
 products:
-   src/main/scala/test/Test.scala -> build/classes/scala/main/test/Test$.class
-   src/main/scala/test/Test.scala -> build/classes/scala/main/test/Test.class
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorApplication.scala -> C:\git\services\skysail-services-monitor\build\classes\scala\main\io\skysail\service\monitor\MonitorApplication$.class
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorApplication.scala -> C:\git\services\skysail-services-monitor\build\classes\scala\main\io\skysail\service\monitor\MonitorApplication.class
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorController.scala -> C:\git\services\skysail-services-monitor\build\classes\scala\main\io\skysail\service\monitor\MonitorController$$anonfun$reportCurrentTime$1.class
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorController.scala -> C:\git\services\skysail-services-monitor\build\classes\scala\main\io\skysail\service\monitor\MonitorController.class
 binary dependencies:
-   src/main/scala/test/Test.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar
-   src/main/scala/test/Test.scala -> /Users/carsten/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorApplication.scala -> C:\Program Files\Java\jdk1.8.0_162\jre\lib\rt.jar
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorApplication.scala -> C:\Users\graefca\.gradle\caches\modules-2\files-2.1\com.h2database\h2\1.4.196\dd0034398d593aa3588c6773faac429bbd9aea0e\h2-1.4.196.jar
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorApplication.scala -> C:\Users\graefca\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.12\bf5534e6fec3d665bd6419c952a929a8bdd4b591\scala-library-2.11.12.jar
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorApplication.scala -> C:\Users\graefca\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-autoconfigure\2.0.0.RELEASE\c89896a469ecf92996ecba40755919896ace5470\spring-boot-autoconfigure-2.0.0.RELEASE.jar
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorApplication.scala -> C:\Users\graefca\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot\2.0.0.RELEASE\771da2071ff14a47f108642a641c204ae4ef7b15\spring-boot-2.0.0.RELEASE.jar
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorApplication.scala -> C:\Users\graefca\.gradle\caches\modules-2\files-2.1\org.springframework\spring-context\5.0.4.RELEASE\3e76d08c851113077642c5704f0f94d5ce58e905\spring-context-5.0.4.RELEASE.jar
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorController.scala -> C:\Program Files\Java\jdk1.8.0_162\jre\lib\rt.jar
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorController.scala -> C:\Users\graefca\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.12\bf5534e6fec3d665bd6419c952a929a8bdd4b591\scala-library-2.11.12.jar
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorController.scala -> C:\Users\graefca\.gradle\caches\modules-2\files-2.1\org.springframework.data\spring-data-commons\2.0.5.RELEASE\f5357c650f63f3a187d3d4086a9e9132f33851a6\spring-data-commons-2.0.5.RELEASE.jar
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorController.scala -> C:\Users\graefca\.gradle\caches\modules-2\files-2.1\org.springframework\spring-beans\5.0.4.RELEASE\7a8c3d48d4c33621e64d1399721d8e067450fcbd\spring-beans-5.0.4.RELEASE.jar
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorController.scala -> C:\Users\graefca\.gradle\caches\modules-2\files-2.1\org.springframework\spring-context\5.0.4.RELEASE\3e76d08c851113077642c5704f0f94d5ce58e905\spring-context-5.0.4.RELEASE.jar
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorController.scala -> C:\git\services\skysail-services-monitor\build\classes\java\main\io\skysail\service\monitor\domain\ConnectionResult.class
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorController.scala -> C:\git\services\skysail-services-monitor\build\classes\java\main\io\skysail\service\monitor\domain\Measurement.class
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorController.scala -> C:\git\services\skysail-services-monitor\build\classes\java\main\io\skysail\service\monitor\domain\Monitor.class
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorController.scala -> C:\git\services\skysail-services-monitor\build\classes\java\main\io\skysail\service\monitor\repositories\MeasurementRepository.class
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorController.scala -> C:\git\services\skysail-services-monitor\build\classes\java\main\io\skysail\service\monitor\repositories\MonitorRepository.class
 source dependencies:
 external dependencies:
 class names:
-   src/main/scala/test/Test.scala -> test.Test
-   src/main/scala/test/Test.scala -> test.Test$
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorApplication.scala -> io.skysail.service.monitor.MonitorApplication
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorApplication.scala -> io.skysail.service.monitor.MonitorApplication$
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorController.scala -> io.skysail.service.monitor.MonitorController
+   C:\git\services\skysail-services-monitor\src\main\scala\io\skysail\service\monitor\MonitorController.scala -> io.skysail.service.monitor.MonitorController$$anonfun$reportCurrentTime$1
