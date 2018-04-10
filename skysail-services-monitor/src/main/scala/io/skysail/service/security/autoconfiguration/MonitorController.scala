@@ -1,4 +1,4 @@
-package io.skysail.service.config
+package io.skysail.service.security.autoconfiguration
 
 import java.io.IOException
 import java.net.{HttpURLConnection, URL, UnknownHostException}
