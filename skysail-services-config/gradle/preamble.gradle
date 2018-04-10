@@ -13,6 +13,5 @@ Gradle home is      : $gradle.gradleHomeDir
 Gradle user dir     : $gradle.gradleUserHomeDir
 Base directory      : $projectDir
 Java Version        : $currentJvm
-kvb.env             : systemProp [$kvb_env_sys]
 ================================================================================
 """

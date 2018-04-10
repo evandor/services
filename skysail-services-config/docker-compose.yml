@@ -1,0 +1,6 @@
+version: '2'
+services:
+  demoservice:
+    image: skysail-services-config:latest
+    ports:
+      - "8888:8888"
