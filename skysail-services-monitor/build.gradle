@@ -8,7 +8,7 @@ buildscript {
 }
 
 apply plugin: 'java'
-apply plugin: 'scala'
+//apply plugin: 'scala'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
@@ -28,8 +28,8 @@ targetCompatibility = 1.8
 
 dependencies {
 
-    compile "org.scala-lang:scala-library:${scala_version}"
-    compile "org.scala-lang:scala-reflect:${scala_version}"
+//    compile "org.scala-lang:scala-library:${scala_version}"
+//    compile "org.scala-lang:scala-reflect:${scala_version}"
 
     compile("org.springframework.boot:spring-boot-starter-web")
     compile 'org.springframework.boot:spring-boot-starter-data-jpa'
@@ -43,7 +43,7 @@ dependencies {
 
 }
 
-sourceSets {
+/*sourceSets {
     main {
         java {
             srcDirs = ['src/main/java']
@@ -57,5 +57,5 @@ sourceSets {
             srcDirs = ['test']
         }
     }
-}
+}*/
 

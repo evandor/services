@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Gradle 1" modules="skysail-services-monitor_main,skysail-services-monitor_test">
+    <profile name="Gradle 1" modules="skysail-services-monitor_main,skysail-services-monitor_test,skysail-services-security-autoconfigure_main,skysail-services-security-autoconfigure_test,simple_main,simple_test">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <parameters>

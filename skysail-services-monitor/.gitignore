@@ -1,0 +1,31 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Gradle template
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+*.iml
+
+## Directory-based project format:
+.idea/
+
+.gradle/
+
+/**/phantomjsdriver.log
+
+# IntelliJ
+**/out/**
+
+# Maven
+classes/
+_state
+
+# Generated sources
+**/generated/**
+node_modules
+

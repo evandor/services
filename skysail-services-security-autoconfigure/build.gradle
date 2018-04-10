@@ -1,0 +1,135 @@
+buildscript {
+    ext {
+        springBootVersion = '2.0.0.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.0.1.RELEASE")
+    }
+}
+
+apply plugin: 'scala'
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'io.spring.dependency-management'
+
+apply from: "$rootProject.projectDir/gradle/preamble.gradle"
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.boot:spring-boot-dependencies:${springBootVersion}"
+    }
+
+    dependencies {
+
+    }
+}
+
+idea {
+    module {
+        // due to a probable bug in the idea plugin or IntelliJ, the integrationTestWithActuator module will not see
+        // the classes in the integrationTest module if the directories are marked as test source directories. For
+        // Gradle, the setup works fine, however.
+        sourceDirs += file("src/integrationTest/scala")
+        sourceDirs += file("src/integrationTest/resources")
+        sourceDirs += file("src/integrationTestWithActuator/java")
+        sourceDirs += file("src/integrationTestWithActuator/resources")
+    }
+}
+
+sourceSets {
+    main {
+        scala {
+            srcDirs = ['src/main/scala', 'src/main/java']
+        }
+        java {
+            srcDirs = []
+        }
+    }
+    test {
+        scala {
+            srcDirs = ['test']
+        }
+    }
+    integrationTest
+    integrationTestWithActuator
+
+}
+
+task integrationTest(type: Test) {
+    testClassesDirs = sourceSets.integrationTest.output.classesDirs
+    classpath = sourceSets.integrationTest.runtimeClasspath
+
+    mustRunAfter test
+}
+
+task integrationTestWithActuator(type: Test) {
+    testClassesDirs = sourceSets.integrationTestWithActuator.output.classesDirs
+    classpath = sourceSets.integrationTestWithActuator.runtimeClasspath
+
+    mustRunAfter integrationTest
+}
+
+check.dependsOn integrationTest, integrationTestWithActuator
+
+
+dependencies {
+
+    compile "org.scala-lang:scala-library:${scala_version}"
+    compile "org.scala-lang:scala-reflect:${scala_version}"
+
+    compile "org.springframework.boot:spring-boot-starter"
+    compile "org.springframework.boot:spring-boot-autoconfigure"
+    compile "org.springframework.boot:spring-boot-configuration-processor"
+    compile "org.springframework.boot:spring-boot-starter-security"
+
+    compileOnly "org.springframework.boot:spring-boot-starter-actuator"
+
+    testCompile "org.springframework.boot:spring-boot-starter-test"
+    testCompile "org.springframework.boot:spring-boot-starter-actuator"
+    testCompile "org.scalatest:scalatest_2.11:3.0.5"
+
+    testRuntime "org.springframework.boot:spring-boot-starter-validation"
+
+    // We cannot re-use the test configuration here, as it requires a dependency on spring-boot-actuator. However, we
+    // want to be able to run integration tests without spring-boot-actuator on the classpath to test the behavior
+    // of the ActuatorConfig class in this case.
+    integrationTestCompile sourceSets.main.output
+    integrationTestCompile configurations.compile
+    integrationTestCompile "org.springframework.boot:spring-boot-starter-test"
+    integrationTestCompile "org.springframework.security:spring-security-test"
+    integrationTestCompile "org.springframework.boot:spring-boot-starter-validation"
+    integrationTestCompile "org.springframework:spring-webmvc:5.0.4.RELEASE"
+
+    integrationTestRuntime configurations.runtime
+    integrationTestRuntime "org.springframework.boot:spring-boot-starter-tomcat"
+
+    // Same as the integrationTest configuration, but with spring-boot-starter-actuator on the runtime classpath
+    integrationTestWithActuatorCompile sourceSets.integrationTest.output
+    integrationTestWithActuatorCompile configurations.integrationTestCompile
+
+    integrationTestWithActuatorRuntime configurations.integrationTestRuntime
+    integrationTestWithActuatorRuntime "org.springframework.boot:spring-boot-starter-actuator"
+}
+
+compileJava.dependsOn(processResources)
+
+jar {
+    manifest {
+        attributes(
+                "Implementation-Title": project.name,
+                "Implementation-Version": project.version,
+                "Implementation-Vendor": "skysail"
+        )
+    }
+}

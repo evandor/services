@@ -4,5 +4,15 @@
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="simple_main" target="1.8" />
+      <module name="simple_test" target="1.8" />
+      <module name="skysail-services-monitor_main" target="1.8" />
+      <module name="skysail-services-monitor_test" target="1.8" />
+      <module name="skysail-services-security-autoconfigure_integrationTest" target="1.8" />
+      <module name="skysail-services-security-autoconfigure_integrationTestWithActuator" target="1.8" />
+      <module name="skysail-services-security-autoconfigure_main" target="1.8" />
+      <module name="skysail-services-security-autoconfigure_test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
