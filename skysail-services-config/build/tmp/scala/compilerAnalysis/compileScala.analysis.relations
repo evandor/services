@@ -1,0 +1,19 @@
+products:
+   src/main/java/io/skysail/service/config/domain/ConnectionResult.java -> build/classes/scala/main/io/skysail/service/config/domain/ConnectionResult.class
+   src/main/scala/io/skysail/service/config/ConfigServiceApplication.scala -> build/classes/scala/main/io/skysail/service/config/ConfigServiceApplication$.class
+   src/main/scala/io/skysail/service/config/ConfigServiceApplication.scala -> build/classes/scala/main/io/skysail/service/config/ConfigServiceApplication.class
+binary dependencies:
+   src/main/java/io/skysail/service/config/domain/ConnectionResult.java -> /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/io/skysail/service/config/ConfigServiceApplication.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/io/skysail/service/config/ConfigServiceApplication.scala -> /Users/carsten/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
+   src/main/scala/io/skysail/service/config/ConfigServiceApplication.scala -> /Users/carsten/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.1.RELEASE/b0bf9d34ed70c6987a86cd58a009065e5fa02545/spring-boot-autoconfigure-2.0.1.RELEASE.jar
+   src/main/scala/io/skysail/service/config/ConfigServiceApplication.scala -> /Users/carsten/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.0.1.RELEASE/b8c5b14cbb0e52fdded8f98a8c1493cc74c7cf59/spring-boot-2.0.1.RELEASE.jar
+   src/main/scala/io/skysail/service/config/ConfigServiceApplication.scala -> /Users/carsten/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-config-server/2.0.0.M9/54602928496fc2ca85c9c77209f55148df90a4d8/spring-cloud-config-server-2.0.0.M9.jar
+   src/main/scala/io/skysail/service/config/ConfigServiceApplication.scala -> /Users/carsten/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.5.RELEASE/9cca4bf5acb693249a01c218f471c677b951d6e2/spring-context-5.0.5.RELEASE.jar
+source dependencies:
+   src/main/java/io/skysail/service/config/domain/ConnectionResult.java -> src/main/java/io/skysail/service/config/domain/ConnectionResult.java
+external dependencies:
+class names:
+   src/main/java/io/skysail/service/config/domain/ConnectionResult.java -> io.skysail.service.config.domain.ConnectionResult
+   src/main/scala/io/skysail/service/config/ConfigServiceApplication.scala -> io.skysail.service.config.ConfigServiceApplication
+   src/main/scala/io/skysail/service/config/ConfigServiceApplication.scala -> io.skysail.service.config.ConfigServiceApplication$

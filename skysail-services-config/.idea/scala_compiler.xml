@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Gradle 1" modules="configuration-service_main,configuration-service_test,gs-centralized-configuration_main,gs-centralized-configuration_test,skysail-services-monitor_main,skysail-services-monitor_test,skysail-services-config_main,skysail-services-config_test">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <parameters>
+        <parameter value="-target:jvm-1.8" />
+      </parameters>
+    </profile>
+  </component>
+</project>

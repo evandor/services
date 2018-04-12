@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="freemarker">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/configuration/linux_local/org.eclipse.osgi/bundles/12/1/.cp/freemarker.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

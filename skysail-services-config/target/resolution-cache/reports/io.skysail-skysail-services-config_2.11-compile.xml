@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="io.skysail"
+		module="skysail-services-config_2.11"
+		revision="0.1"
+		conf="compile"
+		confs="universal, universal-docs, universal-src, windows, docker, compile, runtime, test, provided, optional, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20180410080635"/>
+	<dependencies>
+		<module organisation="org.springframework.boot" name="spring-boot-starter-test">
+			<revision name="2.0.1.RELEASE" status="release" pubdate="20180405154824" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-test" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="47">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="146129" time="0" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-test/ivy-2.0.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-test/2.0.1.RELEASE/spring-boot-starter-test-2.0.1.RELEASE.pom"/>
+				<caller organisation="io.skysail" name="skysail-services-config_2.11" conf="compile" rev="2.0.1.RELEASE" rev-constraint-default="2.0.1.RELEASE" rev-constraint-dynamic="2.0.1.RELEASE" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spring-boot-starter-test" type="jar" ext="jar" status="no" details="" size="636" time="0" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-test/jars/spring-boot-starter-test-2.0.1.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-test/2.0.1.RELEASE/spring-boot-starter-test-2.0.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xmlunit" name="xmlunit-core">
+			<revision name="2.5.1" status="release" pubdate="20171109194805" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.xmlunit.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="75">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4615" time="0" location="/Users/carsten/.ivy2/cache/org.xmlunit/xmlunit-core/ivy-2.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xmlunit/xmlunit-core/2.5.1/xmlunit-core-2.5.1.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="2.5.1" rev-constraint-default="2.5.1" rev-constraint-dynamic="2.5.1" callerrev="2.0.1.RELEASE"/>
+				<artifacts>
+					<artifact name="xmlunit-core" type="jar" ext="jar" status="no" details="" size="156871" time="0" location="/Users/carsten/.ivy2/cache/org.xmlunit/xmlunit-core/jars/xmlunit-core-2.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xmlunit/xmlunit-core/2.5.1/xmlunit-core-2.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-test-autoconfigure">
+			<revision name="2.0.1.RELEASE" status="release" pubdate="20180405155243" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-test-autoconfigure" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="148945" time="0" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-test-autoconfigure/ivy-2.0.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.0.1.RELEASE/spring-boot-test-autoconfigure-2.0.1.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="2.0.1.RELEASE" rev-constraint-default="2.0.1.RELEASE" rev-constraint-dynamic="2.0.1.RELEASE" callerrev="2.0.1.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot-test-autoconfigure" type="jar" ext="jar" status="no" details="" size="155732" time="0" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-test-autoconfigure/jars/spring-boot-test-autoconfigure-2.0.1.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.0.1.RELEASE/spring-boot-test-autoconfigure-2.0.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-test">
+			<revision name="2.0.1.RELEASE" status="release" pubdate="20180405154955" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-test" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="147203" time="0" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-test/ivy-2.0.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-test/2.0.1.RELEASE/spring-boot-test-2.0.1.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-test-autoconfigure" conf="compile, runtime" rev="2.0.1.RELEASE" rev-constraint-default="2.0.1.RELEASE" rev-constraint-dynamic="2.0.1.RELEASE" callerrev="2.0.1.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="2.0.1.RELEASE" rev-constraint-default="2.0.1.RELEASE" rev-constraint-dynamic="2.0.1.RELEASE" callerrev="2.0.1.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot-test" type="jar" ext="jar" status="no" details="" size="195098" time="0" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-test/jars/spring-boot-test-2.0.1.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-test/2.0.1.RELEASE/spring-boot-test-2.0.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mockito" name="mockito-core">
+			<revision name="2.15.0" status="release" pubdate="20180210165337" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/mockito/mockito" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
+				<license name="The MIT License" url="https://github.com/mockito/mockito/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2991" time="0" location="/Users/carsten/.ivy2/cache/org.mockito/mockito-core/ivy-2.15.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mockito/mockito-core/2.15.0/mockito-core-2.15.0.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="2.15.0" rev-constraint-default="2.15.0" rev-constraint-dynamic="2.15.0" callerrev="2.0.1.RELEASE"/>
+				<artifacts>
+					<artifact name="mockito-core" type="jar" ext="jar" status="no" details="" size="542394" time="0" location="/Users/carsten/.ivy2/cache/org.mockito/mockito-core/jars/mockito-core-2.15.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mockito/mockito-core/2.15.0/mockito-core-2.15.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objenesis" name="objenesis">
+			<revision name="2.6" status="release" pubdate="20170620172837" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://objenesis.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="70">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3457" time="0" location="/Users/carsten/.ivy2/cache/org.objenesis/objenesis/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.pom"/>
+				<caller organisation="org.mockito" name="mockito-core" conf="compile, runtime" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="2.15.0"/>
+				<artifacts>
+					<artifact name="objenesis" type="jar" ext="jar" status="no" details="" size="55684" time="0" location="/Users/carsten/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.bytebuddy" name="byte-buddy-agent">
+			<revision name="1.7.9" status="release" pubdate="20171106230505" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="69">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7400" time="0" location="/Users/carsten/.ivy2/cache/net.bytebuddy/byte-buddy-agent/ivy-1.7.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.pom"/>
+				<caller organisation="org.mockito" name="mockito-core" conf="compile, runtime" rev="1.7.9" rev-constraint-default="1.7.9" rev-constraint-dynamic="1.7.9" callerrev="2.15.0"/>
+				<artifacts>
+					<artifact name="byte-buddy-agent" type="jar" ext="jar" status="no" details="" size="42938" time="0" location="/Users/carsten/.ivy2/cache/net.bytebuddy/byte-buddy-agent/jars/byte-buddy-agent-1.7.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.bytebuddy" name="byte-buddy">
+			<revision name="1.7.9" status="release" pubdate="20171106230514" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="68">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7061" time="0" location="/Users/carsten/.ivy2/cache/net.bytebuddy/byte-buddy/ivy-1.7.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.pom"/>
+				<caller organisation="org.mockito" name="mockito-core" conf="compile, runtime" rev="1.7.9" rev-constraint-default="1.7.9" rev-constraint-dynamic="1.7.9" callerrev="2.15.0"/>
+				<artifacts>
+					<artifact name="byte-buddy" type="jar" ext="jar" status="no" details="" size="2924116" time="0" location="/Users/carsten/.ivy2/cache/net.bytebuddy/byte-buddy/jars/byte-buddy-1.7.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter">
+			<revision name="2.0.1.RELEASE" status="release" pubdate="20180405155159" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="145072" time="0" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter/ivy-2.0.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter/2.0.1.RELEASE/spring-boot-starter-2.0.1.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-actuator" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-json" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="2.0.1.RELEASE" rev-constraint-default="2.0.1.RELEASE" rev-constraint-dynamic="2.0.1.RELEASE" callerrev="2.0.1.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-web" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot-starter" type="jar" ext="jar" status="no" details="" size="592" time="0" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter/jars/spring-boot-starter-2.0.1.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter/2.0.1.RELEASE/spring-boot-starter-2.0.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.0.0.RELEASE" status="release" pubdate="20180301070633" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="3083" time="71" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter/ivy-2.0.0.RELEASE.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter/ivy-2.0.0.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter/2.0.0.RELEASE/spring-boot-starter-2.0.0.RELEASE.pom"/>
+				<evicted-by rev="2.0.1.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-actuator" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-json" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-web" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter-logging">
+			<revision name="2.0.1.RELEASE" status="release" pubdate="20180405154958" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="144579" time="0" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-logging/ivy-2.0.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.0.1.RELEASE/spring-boot-starter-logging-2.0.1.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="2.0.1.RELEASE" rev-constraint-default="2.0.1.RELEASE" rev-constraint-dynamic="2.0.1.RELEASE" callerrev="2.0.1.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot-starter-logging" type="jar" ext="jar" status="no" details="" size="613" time="0" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-logging/jars/spring-boot-starter-logging-2.0.1.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.0.1.RELEASE/spring-boot-starter-logging-2.0.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.0.0.RELEASE" status="release" pubdate="20180301070445" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-logging" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2503" time="73" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-logging/ivy-2.0.0.RELEASE.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-logging/ivy-2.0.0.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.0.0.RELEASE/spring-boot-starter-logging-2.0.0.RELEASE.pom"/>
+				<evicted-by rev="2.0.1.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-autoconfigure">
+			<revision name="2.0.1.RELEASE" status="release" pubdate="20180405155222" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-autoconfigure" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="163330" time="0" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-autoconfigure/ivy-2.0.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.0.1.RELEASE/spring-boot-autoconfigure-2.0.1.RELEASE.pom"/>
+				<caller organisation="org.springframework.cloud" name="spring-cloud-config-client" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.M9"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-test-autoconfigure" conf="compile, runtime" rev="2.0.1.RELEASE" rev-constraint-default="2.0.1.RELEASE" rev-constraint-dynamic="2.0.1.RELEASE" callerrev="2.0.1.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="2.0.1.RELEASE" rev-constraint-default="2.0.1.RELEASE" rev-constraint-dynamic="2.0.1.RELEASE" callerrev="2.0.1.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-actuator-autoconfigure" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot-autoconfigure" type="jar" ext="jar" status="no" details="" size="1154874" time="0" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-autoconfigure/jars/spring-boot-autoconfigure-2.0.1.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.0.1.RELEASE/spring-boot-autoconfigure-2.0.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.0.0.RELEASE" status="release" pubdate="20180301071058" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-autoconfigure" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="31744" time="108" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-autoconfigure/ivy-2.0.0.RELEASE.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-autoconfigure/ivy-2.0.0.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE.pom"/>
+				<evicted-by rev="2.0.1.RELEASE"/>
+				<caller organisation="org.springframework.cloud" name="spring-cloud-config-client" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.M9"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-actuator-autoconfigure" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot">
+			<revision name="2.0.1.RELEASE" status="release" pubdate="20180405154927" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="151759" time="0" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot/ivy-2.0.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot/2.0.1.RELEASE/spring-boot-2.0.1.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-actuator" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-test" conf="compile, runtime" rev="2.0.1.RELEASE" rev-constraint-default="2.0.1.RELEASE" rev-constraint-dynamic="2.0.1.RELEASE" callerrev="2.0.1.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="2.0.1.RELEASE" rev-constraint-default="2.0.1.RELEASE" rev-constraint-dynamic="2.0.1.RELEASE" callerrev="2.0.1.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-autoconfigure" conf="compile, runtime" rev="2.0.1.RELEASE" rev-constraint-default="2.0.1.RELEASE" rev-constraint-dynamic="2.0.1.RELEASE" callerrev="2.0.1.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-autoconfigure" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot" type="jar" ext="jar" status="no" details="" size="927684" time="0" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot/jars/spring-boot-2.0.1.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot/2.0.1.RELEASE/spring-boot-2.0.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.0.0.RELEASE" status="release" pubdate="20180301071101" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="14246" time="98" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot/ivy-2.0.0.RELEASE.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot/ivy-2.0.0.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot/2.0.0.RELEASE/spring-boot-2.0.0.RELEASE.pom"/>
+				<evicted-by rev="2.0.1.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-actuator" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-autoconfigure" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-test">
+			<revision name="5.0.5.RELEASE" status="release" pubdate="20180403223723" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="74">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18446" time="0" location="/Users/carsten/.ivy2/cache/org.springframework/spring-test/ivy-5.0.5.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-test/5.0.5.RELEASE/spring-test-5.0.5.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="5.0.5.RELEASE" rev-constraint-default="5.0.5.RELEASE" rev-constraint-dynamic="5.0.5.RELEASE" callerrev="2.0.1.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-test" type="jar" ext="jar" status="no" details="" size="599473" time="0" location="/Users/carsten/.ivy2/cache/org.springframework/spring-test/jars/spring-test-5.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-test/5.0.5.RELEASE/spring-test-5.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.skyscreamer" name="jsonassert">
+			<revision name="1.5.0" status="release" pubdate="20170319233022" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/skyscreamer/JSONassert" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="72">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3350" time="0" location="/Users/carsten/.ivy2/cache/org.skyscreamer/jsonassert/ivy-1.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="1.5.0" rev-constraint-default="1.5.0" rev-constraint-dynamic="1.5.0" callerrev="2.0.1.RELEASE"/>
+				<artifacts>
+					<artifact name="jsonassert" type="jar" ext="jar" status="no" details="" size="30299" time="0" location="/Users/carsten/.ivy2/cache/org.skyscreamer/jsonassert/jars/jsonassert-1.5.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vaadin.external.google" name="android-json">
+			<revision name="0.0.20131108.vaadin1" status="release" pubdate="20140228134459" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://developer.android.com/sdk" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="73">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2668" time="0" location="/Users/carsten/.ivy2/cache/com.vaadin.external.google/android-json/ivy-0.0.20131108.vaadin1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.pom"/>
+				<caller organisation="org.skyscreamer" name="jsonassert" conf="compile, runtime" rev="0.0.20131108.vaadin1" rev-constraint-default="0.0.20131108.vaadin1" rev-constraint-dynamic="0.0.20131108.vaadin1" callerrev="1.5.0"/>
+				<artifacts>
+					<artifact name="android-json" type="jar" ext="jar" status="no" details="" size="18279" time="0" location="/Users/carsten/.ivy2/cache/com.vaadin.external.google/android-json/jars/android-json-0.0.20131108.vaadin1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-context">
+			<revision name="5.0.5.RELEASE" status="release" pubdate="20180403223648" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="7657" time="0" location="/Users/carsten/.ivy2/cache/org.springframework/spring-context/ivy-5.0.5.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot" conf="compile, runtime" rev="5.0.5.RELEASE" rev-constraint-default="5.0.5.RELEASE" rev-constraint-dynamic="5.0.5.RELEASE" callerrev="2.0.1.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-actuator-autoconfigure" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-webmvc" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-context" type="jar" ext="jar" status="no" details="" size="1091130" time="0" location="/Users/carsten/.ivy2/cache/org.springframework/spring-context/jars/spring-context-5.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="5.0.4.RELEASE" status="release" pubdate="20180219124818" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="https://github.com/spring-projects/spring-framework" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="9071" time="82" location="/Users/carsten/.ivy2/cache/org.springframework/spring-context/ivy-5.0.4.RELEASE.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework/spring-context/ivy-5.0.4.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-context/5.0.4.RELEASE/spring-context-5.0.4.RELEASE.pom"/>
+				<evicted-by rev="5.0.5.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-actuator-autoconfigure" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-webmvc" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-expression">
+			<revision name="5.0.5.RELEASE" status="release" pubdate="20180403223647" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2857" time="0" location="/Users/carsten/.ivy2/cache/org.springframework/spring-expression/ivy-5.0.5.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-expression/5.0.5.RELEASE/spring-expression-5.0.5.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.0.5.RELEASE" rev-constraint-default="5.0.5.RELEASE" rev-constraint-dynamic="5.0.5.RELEASE" callerrev="5.0.5.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-webmvc" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-expression" type="jar" ext="jar" status="no" details="" size="277556" time="0" location="/Users/carsten/.ivy2/cache/org.springframework/spring-expression/jars/spring-expression-5.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-expression/5.0.5.RELEASE/spring-expression-5.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="5.0.4.RELEASE" status="release" pubdate="20180219124814" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="https://github.com/spring-projects/spring-framework" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="1875" time="91" location="/Users/carsten/.ivy2/cache/org.springframework/spring-expression/ivy-5.0.4.RELEASE.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework/spring-expression/ivy-5.0.4.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-expression/5.0.4.RELEASE/spring-expression-5.0.4.RELEASE.pom"/>
+				<evicted-by rev="5.0.5.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-webmvc" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-aop">
+			<revision name="5.0.5.RELEASE" status="release" pubdate="20180403223725" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3826" time="0" location="/Users/carsten/.ivy2/cache/org.springframework/spring-aop/ivy-5.0.5.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.0.5.RELEASE" rev-constraint-default="5.0.5.RELEASE" rev-constraint-dynamic="5.0.5.RELEASE" callerrev="5.0.5.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-webmvc" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-aop" type="jar" ext="jar" status="no" details="" size="366070" time="0" location="/Users/carsten/.ivy2/cache/org.springframework/spring-aop/jars/spring-aop-5.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="5.0.4.RELEASE" status="release" pubdate="20180219124818" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="https://github.com/spring-projects/spring-framework" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="3317" time="109" location="/Users/carsten/.ivy2/cache/org.springframework/spring-aop/ivy-5.0.4.RELEASE.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework/spring-aop/ivy-5.0.4.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-aop/5.0.4.RELEASE/spring-aop-5.0.4.RELEASE.pom"/>
+				<evicted-by rev="5.0.5.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-webmvc" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-beans">
+			<revision name="5.0.5.RELEASE" status="release" pubdate="20180403223654" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4056" time="0" location="/Users/carsten/.ivy2/cache/org.springframework/spring-beans/ivy-5.0.5.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-aop" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.0.5.RELEASE" rev-constraint-default="5.0.5.RELEASE" rev-constraint-dynamic="5.0.5.RELEASE" callerrev="5.0.5.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-aop" conf="compile, runtime" rev="5.0.5.RELEASE" rev-constraint-default="5.0.5.RELEASE" rev-constraint-dynamic="5.0.5.RELEASE" callerrev="5.0.5.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-webmvc" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-web" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-beans" type="jar" ext="jar" status="no" details="" size="660347" time="0" location="/Users/carsten/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-5.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="5.0.4.RELEASE" status="release" pubdate="20180219124815" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="https://github.com/spring-projects/spring-framework" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="3733" time="93" location="/Users/carsten/.ivy2/cache/org.springframework/spring-beans/ivy-5.0.4.RELEASE.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework/spring-beans/ivy-5.0.4.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE.pom"/>
+				<evicted-by rev="5.0.5.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-aop" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-webmvc" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-web" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-core">
+			<revision name="5.0.5.RELEASE" status="release" pubdate="20180403223422" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="11568" time="0" location="/Users/carsten/.ivy2/cache/org.springframework/spring-core/ivy-5.0.5.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-aop" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.0.5.RELEASE" rev-constraint-default="5.0.5.RELEASE" rev-constraint-dynamic="5.0.5.RELEASE" callerrev="5.0.5.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-aop" conf="compile, runtime" rev="5.0.5.RELEASE" rev-constraint-default="5.0.5.RELEASE" rev-constraint-dynamic="5.0.5.RELEASE" callerrev="5.0.5.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="5.0.5.RELEASE" rev-constraint-default="5.0.5.RELEASE" rev-constraint-dynamic="5.0.5.RELEASE" callerrev="2.0.1.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-actuator-autoconfigure" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-beans" conf="compile, runtime" rev="5.0.5.RELEASE" rev-constraint-default="5.0.5.RELEASE" rev-constraint-dynamic="5.0.5.RELEASE" callerrev="5.0.5.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="5.0.5.RELEASE" rev-constraint-default="5.0.5.RELEASE" rev-constraint-dynamic="5.0.5.RELEASE" callerrev="2.0.1.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-webmvc" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-test" conf="compile, runtime" rev="5.0.5.RELEASE" rev-constraint-default="5.0.5.RELEASE" rev-constraint-dynamic="5.0.5.RELEASE" callerrev="5.0.5.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot" conf="compile, runtime" rev="5.0.5.RELEASE" rev-constraint-default="5.0.5.RELEASE" rev-constraint-dynamic="5.0.5.RELEASE" callerrev="2.0.1.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-expression" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-expression" conf="compile, runtime" rev="5.0.5.RELEASE" rev-constraint-default="5.0.5.RELEASE" rev-constraint-dynamic="5.0.5.RELEASE" callerrev="5.0.5.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-beans" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-web" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-core" type="jar" ext="jar" status="no" details="" size="1226331" time="0" location="/Users/carsten/.ivy2/cache/org.springframework/spring-core/jars/spring-core-5.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="5.0.4.RELEASE" status="release" pubdate="20180219124951" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="https://github.com/spring-projects/spring-framework" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="5721" time="75" location="/Users/carsten/.ivy2/cache/org.springframework/spring-core/ivy-5.0.4.RELEASE.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework/spring-core/ivy-5.0.4.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE.pom"/>
+				<evicted-by rev="5.0.5.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-aop" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-expression" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-actuator-autoconfigure" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-beans" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-webmvc" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-web" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-jcl">
+			<revision name="5.0.5.RELEASE" status="release" pubdate="20180403223612" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3054" time="0" location="/Users/carsten/.ivy2/cache/org.springframework/spring-jcl/ivy-5.0.5.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-jcl/5.0.5.RELEASE/spring-jcl-5.0.5.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-core" conf="compile, runtime" rev="5.0.5.RELEASE" rev-constraint-default="5.0.5.RELEASE" rev-constraint-dynamic="5.0.5.RELEASE" callerrev="5.0.5.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-core" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-jcl" type="jar" ext="jar" status="no" details="" size="21703" time="0" location="/Users/carsten/.ivy2/cache/org.springframework/spring-jcl/jars/spring-jcl-5.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-jcl/5.0.5.RELEASE/spring-jcl-5.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="5.0.4.RELEASE" status="release" pubdate="20180219124952" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="https://github.com/spring-projects/spring-framework" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2261" time="93" location="/Users/carsten/.ivy2/cache/org.springframework/spring-jcl/ivy-5.0.4.RELEASE.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework/spring-jcl/ivy-5.0.4.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-jcl/5.0.4.RELEASE/spring-jcl-5.0.4.RELEASE.pom"/>
+				<evicted-by rev="5.0.5.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-core" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.cloud" name="spring-cloud-config-server">
+			<revision name="2.0.0.M9" status="release" pubdate="20180409142034" resolver="SpringMilestones" artresolver="SpringMilestones" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2864" time="1084" location="/Users/carsten/.ivy2/cache/org.springframework.cloud/spring-cloud-config-server/ivy-2.0.0.M9.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework.cloud/spring-cloud-config-server/ivy-2.0.0.M9.xml.original" origin-is-local="false" origin-location="https://repo.spring.io/libs-milestone/org/springframework/cloud/spring-cloud-config-server/2.0.0.M9/spring-cloud-config-server-2.0.0.M9.pom"/>
+				<caller organisation="io.skysail" name="skysail-services-config_2.11" conf="compile" rev="2.0.0.M9" rev-constraint-default="2.0.0.M9" rev-constraint-dynamic="2.0.0.M9" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spring-cloud-config-server" type="jar" ext="jar" status="successful" details="" size="191425" time="1179" location="/Users/carsten/.ivy2/cache/org.springframework.cloud/spring-cloud-config-server/jars/spring-cloud-config-server-2.0.0.M9.jar">
+						<origin-location is-local="false" location="https://repo.spring.io/libs-milestone/org/springframework/cloud/spring-cloud-config-server/2.0.0.M9/spring-cloud-config-server-2.0.0.M9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jgit" name="org.eclipse.jgit">
+			<revision name="4.8.0.201706111038-r" status="release" pubdate="20170613044357" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="Eclipse Distribution License (New BSD License)"/>
+				<metadata-artifact status="no" details="" size="8899" time="0" location="/Users/carsten/.ivy2/cache/org.eclipse.jgit/org.eclipse.jgit/ivy-4.8.0.201706111038-r.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.8.0.201706111038-r/org.eclipse.jgit-4.8.0.201706111038-r.pom"/>
+				<caller organisation="org.springframework.cloud" name="spring-cloud-config-server" conf="default, compile, runtime, master" rev="4.8.0.201706111038-r" rev-constraint-default="4.8.0.201706111038-r" rev-constraint-dynamic="4.8.0.201706111038-r" callerrev="2.0.0.M9"/>
+				<artifacts>
+					<artifact name="org.eclipse.jgit" type="jar" ext="jar" status="no" details="" size="2474713" time="0" location="/Users/carsten/.ivy2/cache/org.eclipse.jgit/org.eclipse.jgit/jars/org.eclipse.jgit-4.8.0.201706111038-r.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.8.0.201706111038-r/org.eclipse.jgit-4.8.0.201706111038-r.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.javaewah" name="JavaEWAH">
+			<revision name="1.1.6" status="release" pubdate="20160427044037" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lemire/javaewah" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4315" time="0" location="/Users/carsten/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/ivy-1.1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.6/JavaEWAH-1.1.6.pom"/>
+				<caller organisation="org.eclipse.jgit" name="org.eclipse.jgit" conf="compile, runtime" rev="1.1.6" rev-constraint-default="1.1.6" rev-constraint-dynamic="1.1.6" callerrev="4.8.0.201706111038-r"/>
+				<artifacts>
+					<artifact name="JavaEWAH" type="bundle" ext="jar" status="no" details="" size="165868" time="0" location="/Users/carsten/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/bundles/JavaEWAH-1.1.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.6/JavaEWAH-1.1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jcraft" name="jsch">
+			<revision name="0.1.54" status="release" pubdate="20160903114216" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jcraft.com/jsch/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="Revised BSD" url="http://www.jcraft.com/jsch/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3235" time="0" location="/Users/carsten/.ivy2/cache/com.jcraft/jsch/ivy-0.1.54.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.pom"/>
+				<caller organisation="org.eclipse.jgit" name="org.eclipse.jgit" conf="compile, runtime" rev="0.1.54" rev-constraint-default="0.1.54" rev-constraint-dynamic="0.1.54" callerrev="4.8.0.201706111038-r"/>
+				<artifacts>
+					<artifact name="jsch" type="jar" ext="jar" status="no" details="" size="280515" time="0" location="/Users/carsten/.ivy2/cache/com.jcraft/jsch/jars/jsch-0.1.54.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.cloud" name="spring-cloud-config-client">
+			<revision name="2.0.0.M9" status="release" pubdate="20180409122122" resolver="SpringMilestones" artresolver="SpringMilestones" homepage="https://spring.io" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2631" time="884" location="/Users/carsten/.ivy2/cache/org.springframework.cloud/spring-cloud-config-client/ivy-2.0.0.M9.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework.cloud/spring-cloud-config-client/ivy-2.0.0.M9.xml.original" origin-is-local="false" origin-location="https://repo.spring.io/libs-milestone/org/springframework/cloud/spring-cloud-config-client/2.0.0.M9/spring-cloud-config-client-2.0.0.M9.pom"/>
+				<caller organisation="org.springframework.cloud" name="spring-cloud-config-server" conf="default, compile, runtime, master" rev="2.0.0.M9" rev-constraint-default="2.0.0.M9" rev-constraint-dynamic="2.0.0.M9" callerrev="2.0.0.M9"/>
+				<artifacts>
+					<artifact name="spring-cloud-config-client" type="jar" ext="jar" status="successful" details="" size="34005" time="1813" location="/Users/carsten/.ivy2/cache/org.springframework.cloud/spring-cloud-config-client/jars/spring-cloud-config-client-2.0.0.M9.jar">
+						<origin-location is-local="false" location="https://repo.spring.io/libs-milestone/org/springframework/cloud/spring-cloud-config-client/2.0.0.M9/spring-cloud-config-client-2.0.0.M9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.cloud" name="spring-cloud-context">
+			<revision name="2.0.0.M9" status="release" pubdate="20180409121809" resolver="SpringMilestones" artresolver="SpringMilestones" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2605" time="1411" location="/Users/carsten/.ivy2/cache/org.springframework.cloud/spring-cloud-context/ivy-2.0.0.M9.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework.cloud/spring-cloud-context/ivy-2.0.0.M9.xml.original" origin-is-local="false" origin-location="https://repo.spring.io/libs-milestone/org/springframework/cloud/spring-cloud-context/2.0.0.M9/spring-cloud-context-2.0.0.M9.pom"/>
+				<caller organisation="org.springframework.cloud" name="spring-cloud-config-client" conf="compile, runtime" rev="2.0.0.M9" rev-constraint-default="2.0.0.M9" rev-constraint-dynamic="2.0.0.M9" callerrev="2.0.0.M9"/>
+				<artifacts>
+					<artifact name="spring-cloud-context" type="jar" ext="jar" status="successful" details="" size="101974" time="1939" location="/Users/carsten/.ivy2/cache/org.springframework.cloud/spring-cloud-context/jars/spring-cloud-context-2.0.0.M9.jar">
+						<origin-location is-local="false" location="https://repo.spring.io/libs-milestone/org/springframework/cloud/spring-cloud-context/2.0.0.M9/spring-cloud-context-2.0.0.M9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.cloud" name="spring-cloud-commons">
+			<revision name="2.0.0.M9" status="release" pubdate="20180409121810" resolver="SpringMilestones" artresolver="SpringMilestones" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="4889" time="1138" location="/Users/carsten/.ivy2/cache/org.springframework.cloud/spring-cloud-commons/ivy-2.0.0.M9.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework.cloud/spring-cloud-commons/ivy-2.0.0.M9.xml.original" origin-is-local="false" origin-location="https://repo.spring.io/libs-milestone/org/springframework/cloud/spring-cloud-commons/2.0.0.M9/spring-cloud-commons-2.0.0.M9.pom"/>
+				<caller organisation="org.springframework.cloud" name="spring-cloud-config-client" conf="compile, runtime" rev="2.0.0.M9" rev-constraint-default="2.0.0.M9" rev-constraint-dynamic="2.0.0.M9" callerrev="2.0.0.M9"/>
+				<artifacts>
+					<artifact name="spring-cloud-commons" type="jar" ext="jar" status="successful" details="" size="128324" time="3441" location="/Users/carsten/.ivy2/cache/org.springframework.cloud/spring-cloud-commons/jars/spring-cloud-commons-2.0.0.M9.jar">
+						<origin-location is-local="false" location="https://repo.spring.io/libs-milestone/org/springframework/cloud/spring-cloud-commons/2.0.0.M9/spring-cloud-commons-2.0.0.M9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.5.4" status="release" pubdate="20171127104224" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10932" time="0" location="/Users/carsten/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.5.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.4/httpclient-4.5.4.pom"/>
+				<caller organisation="org.eclipse.jgit" name="org.eclipse.jgit" conf="compile, runtime" rev="4.3.6" rev-constraint-default="4.3.6" rev-constraint-dynamic="4.3.6" callerrev="4.8.0.201706111038-r"/>
+				<caller organisation="org.springframework.cloud" name="spring-cloud-commons" conf="compile, runtime" rev="4.5.4" rev-constraint-default="4.5.4" rev-constraint-dynamic="4.5.4" callerrev="2.0.0.M9"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="781831" time="0" location="/Users/carsten/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.5.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.4/httpclient-4.5.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="4.3.6" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="4.5.4"/>
+				<caller organisation="org.eclipse.jgit" name="org.eclipse.jgit" conf="compile, runtime" rev="4.3.6" rev-constraint-default="4.3.6" rev-constraint-dynamic="4.3.6" callerrev="4.8.0.201706111038-r"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.10" status="release" pubdate="20141106151535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10608" time="0" location="/Users/carsten/.ivy2/cache/commons-codec/commons-codec/ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="4.5.4"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="284184" time="0" location="/Users/carsten/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.4.7" status="release" pubdate="20170910122213" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9365" time="0" location="/Users/carsten/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.7/httpcore-4.4.7.pom"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="4.4.7" rev-constraint-default="4.4.7" rev-constraint-dynamic="4.4.7" callerrev="4.5.4"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="325123" time="0" location="/Users/carsten/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.7/httpcore-4.4.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jayway.jsonpath" name="json-path">
+			<revision name="2.4.0" status="release" pubdate="20170705103607" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/jayway/JsonPath" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3480" time="0" location="/Users/carsten/.ivy2/cache/com.jayway.jsonpath/json-path/ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.0.1.RELEASE"/>
+				<artifacts>
+					<artifact name="json-path" type="jar" ext="jar" status="no" details="" size="223186" time="0" location="/Users/carsten/.ivy2/cache/com.jayway.jsonpath/json-path/jars/json-path-2.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.minidev" name="json-smart">
+			<revision name="2.3" status="release" pubdate="20170326095657" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.minidev.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4937" time="0" location="/Users/carsten/.ivy2/cache/net.minidev/json-smart/ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/minidev/json-smart/2.3/json-smart-2.3.pom"/>
+				<caller organisation="com.jayway.jsonpath" name="json-path" conf="compile, runtime" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="json-smart" type="bundle" ext="jar" status="no" details="" size="120316" time="0" location="/Users/carsten/.ivy2/cache/net.minidev/json-smart/bundles/json-smart-2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/minidev/json-smart/2.3/json-smart-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.minidev" name="accessors-smart">
+			<revision name="1.2" status="release" pubdate="20170326095643" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.minidev.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3480" time="0" location="/Users/carsten/.ivy2/cache/net.minidev/accessors-smart/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/minidev/accessors-smart/1.2/accessors-smart-1.2.pom"/>
+				<caller organisation="net.minidev" name="json-smart" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="2.3"/>
+				<artifacts>
+					<artifact name="accessors-smart" type="bundle" ext="jar" status="no" details="" size="30035" time="0" location="/Users/carsten/.ivy2/cache/net.minidev/accessors-smart/bundles/accessors-smart-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="5.0.4" status="release" pubdate="20150515170455" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3953" time="0" location="/Users/carsten/.ivy2/cache/org.ow2.asm/asm/ivy-5.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom"/>
+				<caller organisation="net.minidev" name="accessors-smart" conf="compile, runtime" rev="5.0.4" rev-constraint-default="5.0.4" rev-constraint-dynamic="5.0.4" callerrev="1.2"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="53297" time="0" location="/Users/carsten/.ivy2/cache/org.ow2.asm/asm/jars/asm-5.0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.security" name="spring-security-rsa">
+			<revision name="1.0.5.RELEASE" status="release" pubdate="20170512152811" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/spring-projects/spring-security-oauth" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3645" time="0" location="/Users/carsten/.ivy2/cache/org.springframework.security/spring-security-rsa/ivy-1.0.5.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/security/spring-security-rsa/1.0.5.RELEASE/spring-security-rsa-1.0.5.RELEASE.pom"/>
+				<caller organisation="org.springframework.cloud" name="spring-cloud-config-server" conf="default, compile, runtime, master" rev="1.0.5.RELEASE" rev-constraint-default="1.0.5.RELEASE" rev-constraint-dynamic="1.0.5.RELEASE" callerrev="2.0.0.M9"/>
+				<artifacts>
+					<artifact name="spring-security-rsa" type="jar" ext="jar" status="no" details="" size="19745" time="0" location="/Users/carsten/.ivy2/cache/org.springframework.security/spring-security-rsa/jars/spring-security-rsa-1.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/security/spring-security-rsa/1.0.5.RELEASE/spring-security-rsa-1.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcpkix-jdk15on">
+			<revision name="1.56" status="release" pubdate="20161223062904" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="2927" time="0" location="/Users/carsten/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/ivy-1.56.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.pom"/>
+				<caller organisation="org.springframework.security" name="spring-security-rsa" conf="compile, runtime" rev="1.56" rev-constraint-default="1.56" rev-constraint-dynamic="1.56" callerrev="1.0.5.RELEASE"/>
+				<artifacts>
+					<artifact name="bcpkix-jdk15on" type="jar" ext="jar" status="no" details="" size="685403" time="0" location="/Users/carsten/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/jars/bcpkix-jdk15on-1.56.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcprov-jdk15on">
+			<revision name="1.56" status="release" pubdate="20161223061136" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="2676" time="0" location="/Users/carsten/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/ivy-1.56.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.pom"/>
+				<caller organisation="org.bouncycastle" name="bcpkix-jdk15on" conf="compile, runtime" rev="1.56" rev-constraint-default="1.56" rev-constraint-dynamic="1.56" callerrev="1.56"/>
+				<artifacts>
+					<artifact name="bcprov-jdk15on" type="jar" ext="jar" status="no" details="" size="3448507" time="0" location="/Users/carsten/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/jars/bcprov-jdk15on-1.56.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.security" name="spring-security-crypto">
+			<revision name="5.0.3.RELEASE" status="release" pubdate="20180228154746" resolver="public" artresolver="public" homepage="http://spring.io/spring-security" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2599" time="361" location="/Users/carsten/.ivy2/cache/org.springframework.security/spring-security-crypto/ivy-5.0.3.RELEASE.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework.security/spring-security-crypto/ivy-5.0.3.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/security/spring-security-crypto/5.0.3.RELEASE/spring-security-crypto-5.0.3.RELEASE.pom"/>
+				<caller organisation="org.springframework.cloud" name="spring-cloud-config-server" conf="default, compile, runtime, master" rev="5.0.3.RELEASE" rev-constraint-default="5.0.3.RELEASE" rev-constraint-dynamic="5.0.3.RELEASE" callerrev="2.0.0.M9"/>
+				<caller organisation="org.springframework.cloud" name="spring-cloud-commons" conf="compile, runtime" rev="5.0.3.RELEASE" rev-constraint-default="5.0.3.RELEASE" rev-constraint-dynamic="5.0.3.RELEASE" callerrev="2.0.0.M9"/>
+				<caller organisation="org.springframework.cloud" name="spring-cloud-context" conf="compile, runtime" rev="5.0.3.RELEASE" rev-constraint-default="5.0.3.RELEASE" rev-constraint-dynamic="5.0.3.RELEASE" callerrev="2.0.0.M9"/>
+				<artifacts>
+					<artifact name="spring-security-crypto" type="jar" ext="jar" status="successful" details="" size="72356" time="141" location="/Users/carsten/.ivy2/cache/org.springframework.security/spring-security-crypto/jars/spring-security-crypto-5.0.3.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/security/spring-security-crypto/5.0.3.RELEASE/spring-security-crypto-5.0.3.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter-web">
+			<revision name="2.0.0.RELEASE" status="release" pubdate="20180301070546" resolver="public" artresolver="public" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-web" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="3203" time="70" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-web/ivy-2.0.0.RELEASE.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-web/ivy-2.0.0.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-web/2.0.0.RELEASE/spring-boot-starter-web-2.0.0.RELEASE.pom"/>
+				<caller organisation="org.springframework.cloud" name="spring-cloud-config-server" conf="default, compile, runtime, master" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.M9"/>
+				<artifacts>
+					<artifact name="spring-boot-starter-web" type="jar" ext="jar" status="successful" details="" size="588" time="94" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-web/jars/spring-boot-starter-web-2.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-web/2.0.0.RELEASE/spring-boot-starter-web-2.0.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter-tomcat">
+			<revision name="2.0.0.RELEASE" status="release" pubdate="20180301070817" resolver="public" artresolver="public" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-tomcat" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2976" time="1120" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-tomcat/ivy-2.0.0.RELEASE.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-tomcat/ivy-2.0.0.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.0.0.RELEASE/spring-boot-starter-tomcat-2.0.0.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-web" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot-starter-tomcat" type="jar" ext="jar" status="successful" details="" size="590" time="90" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-tomcat/jars/spring-boot-starter-tomcat-2.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.0.0.RELEASE/spring-boot-starter-tomcat-2.0.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter-json">
+			<revision name="2.0.0.RELEASE" status="release" pubdate="20180301071057" resolver="public" artresolver="public" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-json" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="3124" time="105" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-json/ivy-2.0.0.RELEASE.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-json/ivy-2.0.0.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-json/2.0.0.RELEASE/spring-boot-starter-json-2.0.0.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-web" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot-starter-json" type="jar" ext="jar" status="successful" details="" size="645" time="68" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-json/jars/spring-boot-starter-json-2.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-json/2.0.0.RELEASE/spring-boot-starter-json-2.0.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8">
+			<revision name="2.9.4" status="release" pubdate="20180124053927" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1914" time="76" location="/Users/carsten/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/ivy-2.9.4.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/ivy-2.9.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.4/jackson-datatype-jdk8-2.9.4.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-json" conf="compile, runtime" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="jackson-datatype-jdk8" type="bundle" ext="jar" status="successful" details="" size="33391" time="77" location="/Users/carsten/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.9.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.4/jackson-datatype-jdk8-2.9.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter-actuator">
+			<revision name="2.0.0.RELEASE" status="release" pubdate="20180301071059" resolver="public" artresolver="public" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-actuator" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2637" time="88" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-actuator/ivy-2.0.0.RELEASE.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-actuator/ivy-2.0.0.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.0.0.RELEASE/spring-boot-starter-actuator-2.0.0.RELEASE.pom"/>
+				<caller organisation="org.springframework.cloud" name="spring-cloud-config-server" conf="default, compile, runtime, master" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.M9"/>
+				<artifacts>
+					<artifact name="spring-boot-starter-actuator" type="jar" ext="jar" status="successful" details="" size="612" time="151" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-actuator/jars/spring-boot-starter-actuator-2.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.0.0.RELEASE/spring-boot-starter-actuator-2.0.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-actuator-autoconfigure">
+			<revision name="2.0.0.RELEASE" status="release" pubdate="20180301070300" resolver="public" artresolver="public" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-actuator-autoconfigure" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="18582" time="83" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-actuator-autoconfigure/ivy-2.0.0.RELEASE.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-actuator-autoconfigure/ivy-2.0.0.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.0.0.RELEASE/spring-boot-actuator-autoconfigure-2.0.0.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-actuator" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot-actuator-autoconfigure" type="jar" ext="jar" status="successful" details="" size="368339" time="166" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-actuator-autoconfigure/jars/spring-boot-actuator-autoconfigure-2.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.0.0.RELEASE/spring-boot-actuator-autoconfigure-2.0.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-actuator">
+			<revision name="2.0.0.RELEASE" status="release" pubdate="20180301070348" resolver="public" artresolver="public" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-actuator" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="12882" time="168" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-actuator/ivy-2.0.0.RELEASE.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-actuator/ivy-2.0.0.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-actuator/2.0.0.RELEASE/spring-boot-actuator-2.0.0.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-actuator-autoconfigure" conf="compile, runtime" rev="2.0.0.RELEASE" rev-constraint-default="2.0.0.RELEASE" rev-constraint-dynamic="2.0.0.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot-actuator" type="jar" ext="jar" status="successful" details="" size="457772" time="223" location="/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-actuator/jars/spring-boot-actuator-2.0.0.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-actuator/2.0.0.RELEASE/spring-boot-actuator-2.0.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.micrometer" name="micrometer-core">
+			<revision name="1.0.1" status="release" pubdate="20180227150841" resolver="public" artresolver="public" homepage="https://github.com/micrometer-metrics/micrometer" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="6240" time="67" location="/Users/carsten/.ivy2/cache/io.micrometer/micrometer-core/ivy-1.0.1.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/io.micrometer/micrometer-core/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/micrometer/micrometer-core/1.0.1/micrometer-core-1.0.1.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-actuator" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="micrometer-core" type="jar" ext="jar" status="successful" details="" size="297367" time="159" location="/Users/carsten/.ivy2/cache/io.micrometer/micrometer-core/jars/micrometer-core-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/micrometer/micrometer-core/1.0.1/micrometer-core-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.latencyutils" name="LatencyUtils">
+			<revision name="2.0.3" status="release" pubdate="20151215212828" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://latencyutils.github.io/LatencyUtils/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="Public Domain, per Creative Commons CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="3591" time="0" location="/Users/carsten/.ivy2/cache/org.latencyutils/LatencyUtils/ivy-2.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.pom"/>
+				<caller organisation="io.micrometer" name="micrometer-core" conf="compile, runtime" rev="2.0.3" rev-constraint-default="2.0.3" rev-constraint-dynamic="2.0.3" callerrev="1.0.1"/>
+				<artifacts>
+					<artifact name="LatencyUtils" type="jar" ext="jar" status="no" details="" size="29779" time="0" location="/Users/carsten/.ivy2/cache/org.latencyutils/LatencyUtils/jars/LatencyUtils-2.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hdrhistogram" name="HdrHistogram">
+			<revision name="2.1.10" status="release" pubdate="20170915020948" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hdrhistogram.github.io/HdrHistogram/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="Public Domain, per Creative Commons CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<license name="BSD-2-Clause" url="https://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="4279" time="0" location="/Users/carsten/.ivy2/cache/org.hdrhistogram/HdrHistogram/ivy-2.1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.10/HdrHistogram-2.1.10.pom"/>
+				<caller organisation="io.micrometer" name="micrometer-core" conf="compile, runtime" rev="2.1.10" rev-constraint-default="2.1.10" rev-constraint-dynamic="2.1.10" callerrev="1.0.1"/>
+				<artifacts>
+					<artifact name="HdrHistogram" type="bundle" ext="jar" status="no" details="" size="117910" time="0" location="/Users/carsten/.ivy2/cache/org.hdrhistogram/HdrHistogram/bundles/HdrHistogram-2.1.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.10/HdrHistogram-2.1.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.annotation" name="javax.annotation-api">
+			<revision name="1.3.2" status="release" pubdate="20180221112424" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jcp.org/en/jsr/detail?id=250" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://github.com/javaee/javax.annotation/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="4192" time="0" location="/Users/carsten/.ivy2/cache/javax.annotation/javax.annotation-api/ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-tomcat" conf="compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="2.0.1.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="javax.annotation-api" type="jar" ext="jar" status="no" details="" size="26586" time="0" location="/Users/carsten/.ivy2/cache/javax.annotation/javax.annotation-api/jars/javax.annotation-api-1.3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-to-slf4j">
+			<revision name="2.10.0" status="release" pubdate="20171119090848" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="28734" time="0" location="/Users/carsten/.ivy2/cache/org.apache.logging.log4j/log4j-to-slf4j/ivy-2.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-logging" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-logging" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.0.1.RELEASE"/>
+				<artifacts>
+					<artifact name="log4j-to-slf4j" type="jar" ext="jar" status="no" details="" size="17519" time="0" location="/Users/carsten/.ivy2/cache/org.apache.logging.log4j/log4j-to-slf4j/jars/log4j-to-slf4j-2.10.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat.embed" name="tomcat-embed-websocket">
+			<revision name="8.5.28" status="release" pubdate="20180207002042" resolver="public" artresolver="public" homepage="http://tomcat.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1579" time="330" location="/Users/carsten/.ivy2/cache/org.apache.tomcat.embed/tomcat-embed-websocket/ivy-8.5.28.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.apache.tomcat.embed/tomcat-embed-websocket/ivy-8.5.28.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.28/tomcat-embed-websocket-8.5.28.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-tomcat" conf="compile, runtime" rev="8.5.28" rev-constraint-default="8.5.28" rev-constraint-dynamic="8.5.28" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="tomcat-embed-websocket" type="jar" ext="jar" status="successful" details="" size="257309" time="174" location="/Users/carsten/.ivy2/cache/org.apache.tomcat.embed/tomcat-embed-websocket/jars/tomcat-embed-websocket-8.5.28.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.28/tomcat-embed-websocket-8.5.28.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat.embed" name="tomcat-embed-el">
+			<revision name="8.5.28" status="release" pubdate="20180207002032" resolver="public" artresolver="public" homepage="http://tomcat.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1335" time="70" location="/Users/carsten/.ivy2/cache/org.apache.tomcat.embed/tomcat-embed-el/ivy-8.5.28.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.apache.tomcat.embed/tomcat-embed-el/ivy-8.5.28.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/8.5.28/tomcat-embed-el-8.5.28.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-tomcat" conf="compile, runtime" rev="8.5.28" rev-constraint-default="8.5.28" rev-constraint-dynamic="8.5.28" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="tomcat-embed-el" type="jar" ext="jar" status="successful" details="" size="240498" time="398" location="/Users/carsten/.ivy2/cache/org.apache.tomcat.embed/tomcat-embed-el/jars/tomcat-embed-el-8.5.28.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/8.5.28/tomcat-embed-el-8.5.28.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-parameter-names">
+			<revision name="2.9.4" status="release" pubdate="20180124053903" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="3732" time="78" location="/Users/carsten/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-parameter-names/ivy-2.9.4.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-parameter-names/ivy-2.9.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.4/jackson-module-parameter-names-2.9.4.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-json" conf="compile, runtime" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="jackson-module-parameter-names" type="bundle" ext="jar" status="successful" details="" size="8643" time="88" location="/Users/carsten/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-parameter-names/bundles/jackson-module-parameter-names-2.9.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.4/jackson-module-parameter-names-2.9.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310">
+			<revision name="2.9.4" status="release" pubdate="20180124053944" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="4267" time="82" location="/Users/carsten/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/ivy-2.9.4.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/ivy-2.9.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.4/jackson-datatype-jsr310-2.9.4.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-json" conf="compile, runtime" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-actuator-autoconfigure" conf="compile, runtime" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="jackson-datatype-jsr310" type="bundle" ext="jar" status="successful" details="" size="98261" time="160" location="/Users/carsten/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.9.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.4/jackson-datatype-jsr310-2.9.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-webmvc">
+			<revision name="5.0.4.RELEASE" status="release" pubdate="20180219124927" resolver="public" artresolver="public" homepage="https://github.com/spring-projects/spring-framework" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="14109" time="225" location="/Users/carsten/.ivy2/cache/org.springframework/spring-webmvc/ivy-5.0.4.RELEASE.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework/spring-webmvc/ivy-5.0.4.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-webmvc/5.0.4.RELEASE/spring-webmvc-5.0.4.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-web" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-webmvc" type="jar" ext="jar" status="successful" details="" size="782155" time="252" location="/Users/carsten/.ivy2/cache/org.springframework/spring-webmvc/jars/spring-webmvc-5.0.4.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-webmvc/5.0.4.RELEASE/spring-webmvc-5.0.4.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-web">
+			<revision name="5.0.4.RELEASE" status="release" pubdate="20180219124926" resolver="public" artresolver="public" homepage="https://github.com/spring-projects/spring-framework" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="18811" time="108" location="/Users/carsten/.ivy2/cache/org.springframework/spring-web/ivy-5.0.4.RELEASE.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.springframework/spring-web/ivy-5.0.4.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE.pom"/>
+				<caller organisation="org.springframework.cloud" name="spring-cloud-config-client" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="2.0.0.M9"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-json" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-web" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-webmvc" conf="compile, runtime" rev="5.0.4.RELEASE" rev-constraint-default="5.0.4.RELEASE" rev-constraint-dynamic="5.0.4.RELEASE" callerrev="5.0.4.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-web" type="jar" ext="jar" status="successful" details="" size="1244848" time="526" location="/Users/carsten/.ivy2/cache/org.springframework/spring-web/jars/spring-web-5.0.4.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hibernate.validator" name="hibernate-validator">
+			<revision name="6.0.7.Final" status="release" pubdate="20171220143042" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="28923" time="0" location="/Users/carsten/.ivy2/cache/org.hibernate.validator/hibernate-validator/ivy-6.0.7.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hibernate/validator/hibernate-validator/6.0.7.Final/hibernate-validator-6.0.7.Final.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-web" conf="compile, runtime" rev="6.0.7.Final" rev-constraint-default="6.0.7.Final" rev-constraint-dynamic="6.0.7.Final" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="hibernate-validator" type="jar" ext="jar" status="no" details="" size="1117582" time="0" location="/Users/carsten/.ivy2/cache/org.hibernate.validator/hibernate-validator/jars/hibernate-validator-6.0.7.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hibernate/validator/hibernate-validator/6.0.7.Final/hibernate-validator-6.0.7.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml" name="classmate">
+			<revision name="1.3.1" status="release" pubdate="20151026064525" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/cowtowncoder/java-classmate" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5623" time="0" location="/Users/carsten/.ivy2/cache/com.fasterxml/classmate/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/classmate/1.3.1/classmate-1.3.1.pom"/>
+				<caller organisation="org.hibernate.validator" name="hibernate-validator" conf="compile, runtime" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="6.0.7.Final"/>
+				<artifacts>
+					<artifact name="classmate" type="bundle" ext="jar" status="no" details="" size="64804" time="0" location="/Users/carsten/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/classmate/1.3.1/classmate-1.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jboss.logging" name="jboss-logging">
+			<revision name="3.3.0.Final" status="release" pubdate="20150528184939" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jboss.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="Apache License, version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9486" time="0" location="/Users/carsten/.ivy2/cache/org.jboss.logging/jboss-logging/ivy-3.3.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.pom"/>
+				<caller organisation="org.hibernate.validator" name="hibernate-validator" conf="compile, runtime" rev="3.3.0.Final" rev-constraint-default="3.3.0.Final" rev-constraint-dynamic="3.3.0.Final" callerrev="6.0.7.Final"/>
+				<artifacts>
+					<artifact name="jboss-logging" type="jar" ext="jar" status="no" details="" size="66802" time="0" location="/Users/carsten/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.3.0.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.validation" name="validation-api">
+			<revision name="2.0.1.Final" status="release" pubdate="20171219172341" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://beanvalidation.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3427" time="0" location="/Users/carsten/.ivy2/cache/javax.validation/validation-api/ivy-2.0.1.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.pom"/>
+				<caller organisation="org.hibernate.validator" name="hibernate-validator" conf="compile, runtime" rev="2.0.1.Final" rev-constraint-default="2.0.1.Final" rev-constraint-dynamic="2.0.1.Final" callerrev="6.0.7.Final"/>
+				<artifacts>
+					<artifact name="validation-api" type="jar" ext="jar" status="no" details="" size="93107" time="0" location="/Users/carsten/.ivy2/cache/javax.validation/validation-api/jars/validation-api-2.0.1.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hamcrest" name="hamcrest-library">
+			<revision name="1.3" status="release" pubdate="20120709230858" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="71">
+				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2660" time="0" location="/Users/carsten/.ivy2/cache/org.hamcrest/hamcrest-library/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="2.0.1.RELEASE"/>
+				<artifacts>
+					<artifact name="hamcrest-library" type="jar" ext="jar" status="no" details="" size="53070" time="0" location="/Users/carsten/.ivy2/cache/org.hamcrest/hamcrest-library/jars/hamcrest-library-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.assertj" name="assertj-core">
+			<revision name="3.9.1" status="release" pubdate="20180221104023" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6641" time="0" location="/Users/carsten/.ivy2/cache/org.assertj/assertj-core/ivy-3.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/assertj/assertj-core/3.9.1/assertj-core-3.9.1.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="3.9.1" rev-constraint-default="3.9.1" rev-constraint-dynamic="3.9.1" callerrev="2.0.1.RELEASE"/>
+				<artifacts>
+					<artifact name="assertj-core" type="bundle" ext="jar" status="no" details="" size="3913042" time="0" location="/Users/carsten/.ivy2/cache/org.assertj/assertj-core/bundles/assertj-core-3.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/assertj/assertj-core/3.9.1/assertj-core-3.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat.embed" name="tomcat-embed-core">
+			<revision name="8.5.28" status="release" pubdate="20180207002008" resolver="public" artresolver="public" homepage="http://tomcat.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1573" time="90" location="/Users/carsten/.ivy2/cache/org.apache.tomcat.embed/tomcat-embed-core/ivy-8.5.28.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.apache.tomcat.embed/tomcat-embed-core/ivy-8.5.28.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/8.5.28/tomcat-embed-core-8.5.28.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-tomcat" conf="compile, runtime" rev="8.5.28" rev-constraint-default="8.5.28" rev-constraint-dynamic="8.5.28" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.apache.tomcat.embed" name="tomcat-embed-websocket" conf="compile, runtime" rev="8.5.28" rev-constraint-default="8.5.28" rev-constraint-dynamic="8.5.28" callerrev="8.5.28"/>
+				<artifacts>
+					<artifact name="tomcat-embed-core" type="jar" ext="jar" status="successful" details="" size="3109223" time="5003" location="/Users/carsten/.ivy2/cache/org.apache.tomcat.embed/tomcat-embed-core/jars/tomcat-embed-core-8.5.28.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/8.5.28/tomcat-embed-core-8.5.28.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat" name="tomcat-annotations-api">
+			<revision name="8.5.28" status="release" pubdate="20180207001627" resolver="public" artresolver="public" homepage="http://tomcat.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1329" time="192" location="/Users/carsten/.ivy2/cache/org.apache.tomcat/tomcat-annotations-api/ivy-8.5.28.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/org.apache.tomcat/tomcat-annotations-api/ivy-8.5.28.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-annotations-api/8.5.28/tomcat-annotations-api-8.5.28.pom"/>
+				<caller organisation="org.apache.tomcat.embed" name="tomcat-embed-core" conf="compile, runtime" rev="8.5.28" rev-constraint-default="8.5.28" rev-constraint-dynamic="8.5.28" callerrev="8.5.28"/>
+				<artifacts>
+					<artifact name="tomcat-annotations-api" type="jar" ext="jar" status="successful" details="" size="12402" time="84" location="/Users/carsten/.ivy2/cache/org.apache.tomcat/tomcat-annotations-api/jars/tomcat-annotations-api-8.5.28.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-annotations-api/8.5.28/tomcat-annotations-api-8.5.28.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.9.4" status="release" pubdate="20180124050748" resolver="public" artresolver="public" homepage="http://github.com/FasterXML/jackson" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="5864" time="92" location="/Users/carsten/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.9.4.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.9.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.pom"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="compile, runtime" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="2.9.4"/>
+				<caller organisation="org.springframework.cloud" name="spring-cloud-config-client" conf="compile, runtime" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="2.0.0.M9"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-json" conf="compile, runtime" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-parameter-names" conf="compile, runtime" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="2.9.4"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8" conf="compile, runtime" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="2.9.4"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-actuator-autoconfigure" conf="compile, runtime" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="bundle" ext="jar" status="successful" details="" size="1345154" time="506" location="/Users/carsten/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.9.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.9.4" status="release" pubdate="20180124041418" resolver="public" artresolver="public" homepage="https://github.com/FasterXML/jackson-core" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="3402" time="102" location="/Users/carsten/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.9.4.xml" searched="true" original-local-location="/Users/carsten/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.9.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.pom"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="compile, runtime" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="2.9.4"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-parameter-names" conf="compile, runtime" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="2.9.4"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8" conf="compile, runtime" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="2.9.4"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.9.4" rev-constraint-default="2.9.4" rev-constraint-dynamic="2.9.4" callerrev="2.9.4"/>
+				<artifacts>
+					<artifact name="jackson-core" type="bundle" ext="jar" status="successful" details="" size="320923" time="151" location="/Users/carsten/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.9.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.9.0" status="release" pubdate="20170730055340" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6969" time="0" location="/Users/carsten/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.pom"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.4"/>
+				<caller organisation="org.springframework.cloud" name="spring-cloud-config-client" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.0.0.M9"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.4"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="bundle" ext="jar" status="no" details="" size="66519" time="0" location="/Users/carsten/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.9.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.2.3" status="release" pubdate="20170331212753" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="10412" time="0" location="/Users/carsten/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-logging" conf="compile, runtime" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-logging" conf="compile, runtime" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="2.0.1.RELEASE"/>
+				<artifacts>
+					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="290339" time="0" location="/Users/carsten/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jul-to-slf4j">
+			<revision name="1.7.25" status="release" pubdate="20170316173746" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5260" time="0" location="/Users/carsten/.ivy2/cache/org.slf4j/jul-to-slf4j/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-logging" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="2.0.0.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-logging" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="2.0.1.RELEASE"/>
+				<artifacts>
+					<artifact name="jul-to-slf4j" type="jar" ext="jar" status="no" details="" size="4596" time="0" location="/Users/carsten/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.25.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.2.3" status="release" pubdate="20170331212715" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="7917" time="0" location="/Users/carsten/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="compile, runtime" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="1.2.3"/>
+				<artifacts>
+					<artifact name="logback-core" type="jar" ext="jar" status="no" details="" size="471901" time="0" location="/Users/carsten/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml">
+			<revision name="1.19" status="release" pubdate="20171014134506" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.snakeyaml.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5327" time="0" location="/Users/carsten/.ivy2/cache/org.yaml/snakeyaml/ivy-1.19.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom"/>
+				<caller organisation="org.springframework.cloud" name="spring-cloud-config-server" conf="default, compile, runtime, master" rev="1.19" rev-constraint-default="1.19" rev-constraint-dynamic="1.19" callerrev="2.0.0.M9"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="1.19" rev-constraint-default="1.19" rev-constraint-dynamic="1.19" callerrev="2.0.1.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="1.19" rev-constraint-default="1.19" rev-constraint-dynamic="1.19" callerrev="2.0.0.RELEASE"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="bundle" ext="jar" status="no" details="" size="297518" time="0" location="/Users/carsten/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.19.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="20170316173632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="/Users/carsten/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
+				<caller organisation="org.eclipse.jgit" name="org.eclipse.jgit" conf="compile, runtime" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="4.8.0.201706111038-r"/>
+				<caller organisation="org.slf4j" name="jul-to-slf4j" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.7.25"/>
+				<caller organisation="org.apache.logging.log4j" name="log4j-to-slf4j" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="2.10.0"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.2.3"/>
+				<caller organisation="com.jayway.jsonpath" name="json-path" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41203" time="0" location="/Users/carsten/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.7.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.25"/>
+				<caller organisation="org.eclipse.jgit" name="org.eclipse.jgit" conf="compile, runtime" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="4.8.0.201706111038-r"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.12" status="release" pubdate="20141204171743" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
+				<license name="Eclipse Public License 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3191" time="0" location="/Users/carsten/.ivy2/cache/junit/junit/ivy-4.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="4.12" rev-constraint-default="4.12" rev-constraint-dynamic="4.12" callerrev="2.0.1.RELEASE"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="314932" time="0" location="/Users/carsten/.ivy2/cache/junit/junit/jars/junit-4.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hamcrest" name="hamcrest-core">
+			<revision name="1.3" status="release" pubdate="20120709170802" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+				<metadata-artifact status="no" details="" size="2387" time="0" location="/Users/carsten/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.3.xml" searched="false" origin-is-local="true" origin-location="/Users/carsten/install/activator-1.2.7/repository/org.hamcrest/hamcrest-core/1.3/ivys/ivy.xml"/>
+				<caller organisation="junit" name="junit" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="4.12"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="2.0.1.RELEASE"/>
+				<caller organisation="org.hamcrest" name="hamcrest-library" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.3"/>
+				<artifacts>
+					<artifact name="hamcrest-core" type="jar" ext="jar" status="no" details="" size="45024" time="0" location="/Users/carsten/install/activator-1.2.7/repository/org.hamcrest/hamcrest-core/1.3/jars/hamcrest-core.jar">
+						<origin-location is-local="true" location="/Users/carsten/install/activator-1.2.7/repository/org.hamcrest/hamcrest-core/1.3/jars/hamcrest-core.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.12" status="release" pubdate="20171103023730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.12/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2656" time="0" location="/Users/carsten/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.pom"/>
+				<caller organisation="io.skysail" name="skysail-services-config_2.11" conf="compile" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5749423" time="0" location="/Users/carsten/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

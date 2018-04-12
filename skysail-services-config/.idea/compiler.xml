@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="centralized-configuration-configuration-client_main" target="1.8" />
+      <module name="centralized-configuration-configuration-client_test" target="1.8" />
+      <module name="centralized-configuration-configuration-service_main" target="1.8" />
+      <module name="centralized-configuration-configuration-service_test" target="1.8" />
+      <module name="configuration-client_main" target="1.8" />
+      <module name="configuration-client_test" target="1.8" />
+      <module name="configuration-service_main" target="1.8" />
+      <module name="configuration-service_test" target="1.8" />
+      <module name="gs-centralized-configuration_main" target="1.8" />
+      <module name="gs-centralized-configuration_test" target="1.8" />
+      <module name="skysail-services-config_main" target="1.8" />
+      <module name="skysail-services-config_test" target="1.8" />
+      <module name="skysail-services-monitor_main" target="1.8" />
+      <module name="skysail-services-monitor_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

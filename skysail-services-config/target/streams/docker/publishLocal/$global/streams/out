@@ -1,0 +1,43 @@
+[0m[[0mdebug[0m] [0mExecuting Native docker build --force-rm -t skysail-services-config:0.1 -t skysail-services-config:latest .[0m
+[0m[[0mdebug[0m] [0mWorking directory /Users/carsten/git/services/skysail-services-config/target/docker/stage[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon   41.3MB[0m
+[0m[[0minfo[0m] [0mStep 1/8 : FROM openjdk:8-jre-alpine[0m
+[0m[[0minfo[0m] [0m8-jre-alpine: Pulling from library/openjdk[0m
+[0m[[0minfo[0m] [0mff3a5c916c92: Already exists[0m
+[0m[[0minfo[0m] [0m5de5f69f42d7: Already exists[0m
+[0m[[0minfo[0m] [0mfa7536dd895a: Pulling fs layer[0m
+[0m[[0minfo[0m] [0mfa7536dd895a: Verifying Checksum[0m
+[0m[[0minfo[0m] [0mfa7536dd895a: Download complete[0m
+[0m[[0minfo[0m] [0mfa7536dd895a: Pull complete[0m
+[0m[[0minfo[0m] [0mDigest: sha256:5640b489393e2fa1edfca412a3f879ea99b6751429388f50ad3ee6fb09323933[0m
+[0m[[0minfo[0m] [0mStatus: Downloaded newer image for openjdk:8-jre-alpine[0m
+[0m[[0minfo[0m] [0m ---> b1bd879ca9b3[0m
+[0m[[0minfo[0m] [0mStep 2/8 : MAINTAINER Carsten Gräf <evandor@gmail.com>[0m
+[0m[[0minfo[0m] [0m ---> Running in b8c3a66c1551[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container b8c3a66c1551[0m
+[0m[[0minfo[0m] [0m ---> cc610e4d9d8b[0m
+[0m[[0minfo[0m] [0mStep 3/8 : WORKDIR /opt/docker[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container de8f1cee2fc2[0m
+[0m[[0minfo[0m] [0m ---> ee567adec641[0m
+[0m[[0minfo[0m] [0mStep 4/8 : ADD opt /opt[0m
+[0m[[0minfo[0m] [0m ---> fa2a71956b4d[0m
+[0m[[0minfo[0m] [0mStep 5/8 : RUN ["chown", "-R", "daemon:daemon", "."][0m
+[0m[[0minfo[0m] [0m ---> Running in 2af76378eeaa[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container 2af76378eeaa[0m
+[0m[[0minfo[0m] [0m ---> a5631902538e[0m
+[0m[[0minfo[0m] [0mStep 6/8 : USER daemon[0m
+[0m[[0minfo[0m] [0m ---> Running in c23d04dc079d[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container c23d04dc079d[0m
+[0m[[0minfo[0m] [0m ---> a4b82eff5de0[0m
+[0m[[0minfo[0m] [0mStep 7/8 : ENTRYPOINT ["bin/skysail-services-config"][0m
+[0m[[0minfo[0m] [0m ---> Running in 5593d8b1280d[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container 5593d8b1280d[0m
+[0m[[0minfo[0m] [0m ---> 68806e562574[0m
+[0m[[0minfo[0m] [0mStep 8/8 : CMD [][0m
+[0m[[0minfo[0m] [0m ---> Running in 596becc68230[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container 596becc68230[0m
+[0m[[0minfo[0m] [0m ---> bcdf154c3f21[0m
+[0m[[0minfo[0m] [0mSuccessfully built bcdf154c3f21[0m
+[0m[[0minfo[0m] [0mSuccessfully tagged skysail-services-config:0.1[0m
+[0m[[0minfo[0m] [0mSuccessfully tagged skysail-services-config:latest[0m
+[0m[[0minfo[0m] [0mBuilt image skysail-services-config:0.1[0m

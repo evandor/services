@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="interne1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/interne/log-tracing-0.1.5.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/interne/dma-utils-0.0.3.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/interne/datamanager-0.0.8.RC4.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/interne/transport-utils-0.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/interne/isa95-abstract-0.9.2.RC8.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/interne/common-utils-0.9.2.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/interne/adf-abstract-0.9.3.RC1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/interne/adf-core-0.9.3.RC1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/interne/adf-0.9.3.OBS.RC2.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/interne/QuartzManager-0.0.4.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/interne/isa95-0.9.2.RC8.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/interne/isa95-core-0.9.2.RC8.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/interne/persistence-0.9.1.RC2.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/interne/model_core-0.1.5.RC1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

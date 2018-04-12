@@ -1,0 +1,90 @@
+[0m[[0minfo[0m] [0mRunning io.skysail.service.config.ConfigServiceApplication [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/git/services/skysail-services-config/target/scala-2.11/classes[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.12.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework.cloud/spring-cloud-config-server/jars/spring-cloud-config-server-2.0.0.M9.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework.cloud/spring-cloud-config-client/jars/spring-cloud-config-client-2.0.0.M9.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework.cloud/spring-cloud-commons/jars/spring-cloud-commons-2.0.0.M9.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework.security/spring-security-crypto/jars/spring-security-crypto-5.0.3.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.5.4.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.7.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework.cloud/spring-cloud-context/jars/spring-cloud-context-2.0.0.M9.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework/spring-web/jars/spring-web-5.0.4.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.9.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.9.4.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.9.4.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-actuator/jars/spring-boot-starter-actuator-2.0.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.2.3.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.2.3.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.apache.logging.log4j/log4j-to-slf4j/jars/log4j-to-slf4j-2.10.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.25.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/javax.annotation/javax.annotation-api/jars/javax.annotation-api-1.3.2.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-actuator-autoconfigure/jars/spring-boot-actuator-autoconfigure-2.0.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-actuator/jars/spring-boot-actuator-2.0.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/io.micrometer/micrometer-core/jars/micrometer-core-1.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.hdrhistogram/HdrHistogram/bundles/HdrHistogram-2.1.10.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.latencyutils/LatencyUtils/jars/LatencyUtils-2.0.3.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-web/jars/spring-boot-starter-web-2.0.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-json/jars/spring-boot-starter-json-2.0.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.9.4.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.9.4.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-parameter-names/bundles/jackson-module-parameter-names-2.9.4.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-tomcat/jars/spring-boot-starter-tomcat-2.0.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.apache.tomcat.embed/tomcat-embed-core/jars/tomcat-embed-core-8.5.28.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.apache.tomcat.embed/tomcat-embed-el/jars/tomcat-embed-el-8.5.28.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.apache.tomcat.embed/tomcat-embed-websocket/jars/tomcat-embed-websocket-8.5.28.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.hibernate.validator/hibernate-validator/jars/hibernate-validator-6.0.7.Final.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/javax.validation/validation-api/jars/validation-api-2.0.1.Final.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.3.0.Final.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework/spring-webmvc/jars/spring-webmvc-5.0.4.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework.security/spring-security-rsa/jars/spring-security-rsa-1.0.5.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/jars/bcpkix-jdk15on-1.56.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/jars/bcprov-jdk15on-1.56.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.eclipse.jgit/org.eclipse.jgit/jars/org.eclipse.jgit-4.8.0.201706111038-r.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/com.jcraft/jsch/jars/jsch-0.1.54.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/bundles/JavaEWAH-1.1.6.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.19.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-test/jars/spring-boot-starter-test-2.0.1.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter/jars/spring-boot-starter-2.0.1.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot/jars/spring-boot-2.0.1.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework/spring-core/jars/spring-core-5.0.5.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework/spring-jcl/jars/spring-jcl-5.0.5.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework/spring-context/jars/spring-context-5.0.5.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework/spring-aop/jars/spring-aop-5.0.5.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-5.0.5.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework/spring-expression/jars/spring-expression-5.0.5.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-autoconfigure/jars/spring-boot-autoconfigure-2.0.1.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-starter-logging/jars/spring-boot-starter-logging-2.0.1.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-test/jars/spring-boot-test-2.0.1.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework.boot/spring-boot-test-autoconfigure/jars/spring-boot-test-autoconfigure-2.0.1.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/com.jayway.jsonpath/json-path/jars/json-path-2.4.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/net.minidev/json-smart/bundles/json-smart-2.3.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/net.minidev/accessors-smart/bundles/accessors-smart-1.2.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.ow2.asm/asm/jars/asm-5.0.4.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/junit/junit/jars/junit-4.12.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/install/activator-1.2.7/repository/org.hamcrest/hamcrest-core/1.3/jars/hamcrest-core.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.assertj/assertj-core/bundles/assertj-core-3.9.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.mockito/mockito-core/jars/mockito-core-2.15.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/net.bytebuddy/byte-buddy/jars/byte-buddy-1.7.9.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/net.bytebuddy/byte-buddy-agent/jars/byte-buddy-agent-1.7.9.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-2.6.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.hamcrest/hamcrest-library/jars/hamcrest-library-1.3.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.skyscreamer/jsonassert/jars/jsonassert-1.5.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/com.vaadin.external.google/android-json/jars/android-json-0.0.20131108.vaadin1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.springframework/spring-test/jars/spring-test-5.0.5.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/carsten/.ivy2/cache/org.xmlunit/xmlunit-core/jars/xmlunit-core-2.5.1.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread container-0 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread container-0 exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mInterrupting thread http-nio-8888-Acceptor-0[0m
+[0m[[0mdebug[0m] [0m	Interrupted http-nio-8888-Acceptor-0[0m
+[0m[[0mdebug[0m] [0mInterrupting thread http-nio-8888-AsyncTimeout[0m
+[0m[[0mdebug[0m] [0m	Interrupted http-nio-8888-AsyncTimeout[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m

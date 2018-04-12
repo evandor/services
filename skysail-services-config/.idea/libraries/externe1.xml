@@ -1,0 +1,55 @@
+<component name="libraryTable">
+  <library name="externe1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/stax-api-1.0-2.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/geronimo-j2ee-management_1.0_spec-1.0.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/jcl-over-slf4j-1.5.8.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/xpp3-1.1.4c.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/woodstox-core-lgpl-4.0.4.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/spring-2.5.6.SEC01.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/slf4j-log4j12-1.5.8.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/backport-util-concurrent-3.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/jug-2.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/commons-logging-1.0.4.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/antlr-2.7.6.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/geronimo-jms_1.1_spec-1.0.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/joda-time-hibernate-1.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/jxl-2.6.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/jta-1.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/asm-1.5.3.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/slf4j-api-1.5.8.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/hibernate-3.2.7.ga.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/jaxb-api-2.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/xpp3_min-1.1.4c.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/hsqldb-1.7.3.3.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/quartz-1.6.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/jms-1.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/activemq-core-5.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/jacksum-1.6.5.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/aspectjrt-1.6.6.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/jsr107cache-1.0.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/mysql-connector-java-5.0.3.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/ehcache-1.5.0.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/javolution-5.2.6.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/cglib-2.1_3.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/camel-core-1.3.0.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/dom4j-1.6.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/joda-time-1.5.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/activation-1.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/xstream-1.3.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/jaxb-impl-2.1.3.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/log4j-1.2.14.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/ant-commons-logging-1.6.5.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/activeio-core-3.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/jamon-2.4.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/commons-logging-api-1.0.4.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/stax2-api-3.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/aspectjweaver-1.6.6.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/asm-attrs-1.5.3.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/c3p0-0.9.1.2.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/mm/externe/commons-collections-3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="logging">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/skysail/logging/skysail.server.osgi.logreader-0.0.1-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/skysail/logging/skysail.server.osgi.logging.osgi-over-slf4j-0.0.1-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/skysail/logging/skysail.server.osgi.logging.memoryAppender-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

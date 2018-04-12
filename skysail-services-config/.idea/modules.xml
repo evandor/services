@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/configuration-client/centralized-configuration-configuration-client.iml" filepath="$PROJECT_DIR$/.idea/modules/configuration-client/centralized-configuration-configuration-client.iml" group="configuration-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/configuration-client/centralized-configuration-configuration-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/configuration-client/centralized-configuration-configuration-client_main.iml" group="configuration-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/configuration-client/centralized-configuration-configuration-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/configuration-client/centralized-configuration-configuration-client_test.iml" group="configuration-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/configuration-service/centralized-configuration-configuration-service.iml" filepath="$PROJECT_DIR$/.idea/modules/configuration-service/centralized-configuration-configuration-service.iml" group="configuration-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/configuration-service/centralized-configuration-configuration-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/configuration-service/centralized-configuration-configuration-service_main.iml" group="configuration-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/configuration-service/centralized-configuration-configuration-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/configuration-service/centralized-configuration-configuration-service_test.iml" group="configuration-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/git-skysail-services-config.iml" filepath="$PROJECT_DIR$/.idea/modules/git-skysail-services-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gs-centralized-configuration-scala.iml" filepath="$PROJECT_DIR$/.idea/modules/gs-centralized-configuration-scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jenkins-shared-libraries.iml" filepath="$PROJECT_DIR$/.idea/modules/jenkins-shared-libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/skysail-services-config.iml" filepath="$PROJECT_DIR$/.idea/modules/skysail-services-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/skysail-services-config_main.iml" filepath="$PROJECT_DIR$/.idea/modules/skysail-services-config_main.iml" group="skysail-services-config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/skysail-services-config_test.iml" filepath="$PROJECT_DIR$/.idea/modules/skysail-services-config_test.iml" group="skysail-services-config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/skysail-services-monitor.iml" filepath="$PROJECT_DIR$/.idea/modules/skysail-services-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/skysail-services-monitor_main.iml" filepath="$PROJECT_DIR$/.idea/modules/skysail-services-monitor_main.iml" group="skysail-services-monitor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/skysail-services-monitor_test.iml" filepath="$PROJECT_DIR$/.idea/modules/skysail-services-monitor_test.iml" group="skysail-services-monitor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sofia-sites-available.iml" filepath="$PROJECT_DIR$/.idea/modules/sofia-sites-available.iml" />
+    </modules>
+  </component>
+</project>

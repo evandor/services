@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="skysail.server.osgi.logback.config-0.4.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/skysail/logging/logback/skysail.server.osgi.logback.config-0.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="slf4j">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/skysail/logging/slf4j/slf4j-migrator-1.6.2.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/skysail/logging/slf4j/slf4j-log4j12-1.6.2.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/skysail/logging/slf4j/log4j-over-slf4j-1.6.2.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/skysail/logging/slf4j/jcl-over-slf4j-1.6.2.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/skysail/logging/slf4j/slf4j-ext-1.6.2.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/skysail/logging/slf4j/jul-to-slf4j-1.6.2.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/skysail/logging/slf4j/slf4j-jdk14-1.6.2.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/skysail/logging/slf4j/slf4j-api-1.6.2.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/skysail/logging/slf4j/slf4j-jcl-1.6.2.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/skysail/logging/slf4j/slf4j-nop-1.6.2.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/skysail/logging/slf4j/slf4j-simple-1.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

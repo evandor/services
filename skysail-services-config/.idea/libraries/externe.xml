@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="externe">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/agent/externe/log4j-1.2.14.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/agent/externe/woodstox-core-lgpl-4.0.4.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/agent/externe/joda-time-1.6.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/agent/externe/geronimo-jms_1.1_spec-1.0.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/agent/externe/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/agent/externe/stax2-api-3.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/agent/externe/quartz-all-1.6.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/agent/externe/xstream-1.3.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/agent/externe/javolution-5.2.6.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/agent/externe/stax-api-1.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/agent/externe/velocity-dep-1.4.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/agent/externe/geronimo-j2ee-management_1.0_spec-1.0.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/agent/externe/slf4j-log4j12-1.5.8.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/agent/externe/slf4j-api-1.5.8.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/agent/externe/commons-collections-3.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/agent/externe/activemq-core-5.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/agent/externe/spring-2.5.6.SEC01.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/agent/externe/commons-net-1.4.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/pvision14/lib/agent/externe/xpp3_min-1.1.4c.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

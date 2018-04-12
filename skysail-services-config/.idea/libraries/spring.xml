@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="spring">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/org.springframework.aop-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/org.springframework.osgi.extender-1.2.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/com.springsource.org.apache.commons.collections-3.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/com.springsource.org.apache.commons.pool-1.5.3.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/com.springsource.org.dom4j-1.6.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/org.springframework.context-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/org.springframework.expression-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/com.springsource.javax.xml.stream-1.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/org.springframework.orm-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/com.springsource.javax.persistence-2.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/org.springframework.beans-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/org.springframework.osgi.core-1.2.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/org.springframework.transaction-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/org.springframework.jdbc-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/org.springframework.context.support-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/org.springframework.asm-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/com.springsource.javax.servlet-2.5.0.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/com.springsource.org.apache.commons.logging-1.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/com.springsource.org.apache.log4j-1.2.16.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/com.springsource.org.aopalliance-1.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/org.springframework.core-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/com.springsource.javax.transaction-1.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/spring/org.springframework.osgi.io-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

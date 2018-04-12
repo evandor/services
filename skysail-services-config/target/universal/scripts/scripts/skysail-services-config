@@ -1,0 +1,60 @@
+#!/bin/sh
+
+realpath () {
+(
+  TARGET_FILE="$1"
+
+  cd "$(dirname "$TARGET_FILE")"
+  TARGET_FILE=$(basename "$TARGET_FILE")
+
+  COUNT=0
+  while [ -L "$TARGET_FILE" -a $COUNT -lt 100 ]
+  do
+      TARGET_FILE=$(readlink "$TARGET_FILE")
+      cd "$(dirname "$TARGET_FILE")"
+      TARGET_FILE=$(basename "$TARGET_FILE")
+      COUNT=$(($COUNT + 1))
+  done
+
+  if [ "$TARGET_FILE" = "." -o "$TARGET_FILE" = ".." ]; then
+    cd "$TARGET_FILE"
+    TARGET_FILEPATH=
+  else
+    TARGET_FILEPATH=/$TARGET_FILE
+  fi
+
+  echo "$(pwd -P)/$TARGET_FILE"
+)
+}
+
+# Allow user and template_declares (see below) to add java options.
+addJava () {
+  java_opts="$java_opts $1"
+}
+
+# Allow user to specify java options. These get listed first per bash-template.
+if [ -n "$JAVA_OPTS" ]
+then
+  addJava "$JAVA_OPTS"
+fi
+
+# Loads a configuration file full of default command line options for this script.
+loadConfigFile() {
+  cat "$1" | sed '/^\#/d' | sed 's/^-J-X/-X/' | tr '\r\n' ' '
+}
+
+
+real_script_path="$(realpath "$0")"
+app_home="$(realpath "$(dirname "$real_script_path")")"
+lib_dir="$(realpath "${app_home}/../lib")"
+
+app_mainclass="io.skysail.service.config.ConfigServiceApplication"
+
+script_conf_file="${app_home}/../conf/application.ini"
+app_classpath="$lib_dir/io.skysail.skysail-services-config-0.1.jar:$lib_dir/org.scala-lang.scala-library-2.11.12.jar:$lib_dir/org.springframework.cloud.spring-cloud-config-server-2.0.0.M9.jar:$lib_dir/org.springframework.cloud.spring-cloud-config-client-2.0.0.M9.jar:$lib_dir/org.springframework.cloud.spring-cloud-commons-2.0.0.M9.jar:$lib_dir/org.springframework.security.spring-security-crypto-5.0.3.RELEASE.jar:$lib_dir/org.apache.httpcomponents.httpclient-4.5.4.jar:$lib_dir/org.apache.httpcomponents.httpcore-4.4.7.jar:$lib_dir/commons-codec.commons-codec-1.10.jar:$lib_dir/org.springframework.cloud.spring-cloud-context-2.0.0.M9.jar:$lib_dir/org.springframework.spring-web-5.0.4.RELEASE.jar:$lib_dir/com.fasterxml.jackson.core.jackson-annotations-2.9.0.jar:$lib_dir/com.fasterxml.jackson.core.jackson-databind-2.9.4.jar:$lib_dir/com.fasterxml.jackson.core.jackson-core-2.9.4.jar:$lib_dir/org.springframework.boot.spring-boot-starter-actuator-2.0.0.RELEASE.jar:$lib_dir/ch.qos.logback.logback-classic-1.2.3.jar:$lib_dir/ch.qos.logback.logback-core-1.2.3.jar:$lib_dir/org.slf4j.slf4j-api-1.7.25.jar:$lib_dir/org.apache.logging.log4j.log4j-to-slf4j-2.10.0.jar:$lib_dir/org.slf4j.jul-to-slf4j-1.7.25.jar:$lib_dir/javax.annotation.javax.annotation-api-1.3.2.jar:$lib_dir/org.springframework.boot.spring-boot-actuator-autoconfigure-2.0.0.RELEASE.jar:$lib_dir/org.springframework.boot.spring-boot-actuator-2.0.0.RELEASE.jar:$lib_dir/io.micrometer.micrometer-core-1.0.1.jar:$lib_dir/org.hdrhistogram.HdrHistogram-2.1.10.jar:$lib_dir/org.latencyutils.LatencyUtils-2.0.3.jar:$lib_dir/org.springframework.boot.spring-boot-starter-web-2.0.0.RELEASE.jar:$lib_dir/org.springframework.boot.spring-boot-starter-json-2.0.0.RELEASE.jar:$lib_dir/com.fasterxml.jackson.datatype.jackson-datatype-jdk8-2.9.4.jar:$lib_dir/com.fasterxml.jackson.datatype.jackson-datatype-jsr310-2.9.4.jar:$lib_dir/com.fasterxml.jackson.module.jackson-module-parameter-names-2.9.4.jar:$lib_dir/org.springframework.boot.spring-boot-starter-tomcat-2.0.0.RELEASE.jar:$lib_dir/org.apache.tomcat.embed.tomcat-embed-core-8.5.28.jar:$lib_dir/org.apache.tomcat.embed.tomcat-embed-el-8.5.28.jar:$lib_dir/org.apache.tomcat.embed.tomcat-embed-websocket-8.5.28.jar:$lib_dir/org.hibernate.validator.hibernate-validator-6.0.7.Final.jar:$lib_dir/javax.validation.validation-api-2.0.1.Final.jar:$lib_dir/org.jboss.logging.jboss-logging-3.3.0.Final.jar:$lib_dir/com.fasterxml.classmate-1.3.1.jar:$lib_dir/org.springframework.spring-webmvc-5.0.4.RELEASE.jar:$lib_dir/org.springframework.security.spring-security-rsa-1.0.5.RELEASE.jar:$lib_dir/org.bouncycastle.bcpkix-jdk15on-1.56.jar:$lib_dir/org.bouncycastle.bcprov-jdk15on-1.56.jar:$lib_dir/org.eclipse.jgit.org.eclipse.jgit-4.8.0.201706111038-r.jar:$lib_dir/com.jcraft.jsch-0.1.54.jar:$lib_dir/com.googlecode.javaewah.JavaEWAH-1.1.6.jar:$lib_dir/org.yaml.snakeyaml-1.19.jar:$lib_dir/org.springframework.boot.spring-boot-starter-test-2.0.1.RELEASE.jar:$lib_dir/org.springframework.boot.spring-boot-starter-2.0.1.RELEASE.jar:$lib_dir/org.springframework.boot.spring-boot-2.0.1.RELEASE.jar:$lib_dir/org.springframework.spring-core-5.0.5.RELEASE.jar:$lib_dir/org.springframework.spring-jcl-5.0.5.RELEASE.jar:$lib_dir/org.springframework.spring-context-5.0.5.RELEASE.jar:$lib_dir/org.springframework.spring-aop-5.0.5.RELEASE.jar:$lib_dir/org.springframework.spring-beans-5.0.5.RELEASE.jar:$lib_dir/org.springframework.spring-expression-5.0.5.RELEASE.jar:$lib_dir/org.springframework.boot.spring-boot-autoconfigure-2.0.1.RELEASE.jar:$lib_dir/org.springframework.boot.spring-boot-starter-logging-2.0.1.RELEASE.jar:$lib_dir/org.springframework.boot.spring-boot-test-2.0.1.RELEASE.jar:$lib_dir/org.springframework.boot.spring-boot-test-autoconfigure-2.0.1.RELEASE.jar:$lib_dir/com.jayway.jsonpath.json-path-2.4.0.jar:$lib_dir/net.minidev.json-smart-2.3.jar:$lib_dir/net.minidev.accessors-smart-1.2.jar:$lib_dir/org.ow2.asm.asm-5.0.4.jar:$lib_dir/junit.junit-4.12.jar:$lib_dir/org.hamcrest.hamcrest-core-1.3.jar:$lib_dir/org.assertj.assertj-core-3.9.1.jar:$lib_dir/org.mockito.mockito-core-2.15.0.jar:$lib_dir/net.bytebuddy.byte-buddy-1.7.9.jar:$lib_dir/net.bytebuddy.byte-buddy-agent-1.7.9.jar:$lib_dir/org.objenesis.objenesis-2.6.jar:$lib_dir/org.hamcrest.hamcrest-library-1.3.jar:$lib_dir/org.skyscreamer.jsonassert-1.5.0.jar:$lib_dir/com.vaadin.external.google.android-json-0.0.20131108.vaadin1.jar:$lib_dir/org.springframework.spring-test-5.0.5.RELEASE.jar:$lib_dir/org.xmlunit.xmlunit-core-2.5.1.jar"
+
+
+# If a configuration file exist, read the contents to $opts
+[ -f "$script_conf_file" ] && opts=$(loadConfigFile "$script_conf_file")
+
+exec java $java_opts -classpath $app_classpath $opts $app_mainclass $@

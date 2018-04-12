@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="restlet">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/restlet/org.restlet.ext.freemarker-2.0.9.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/restlet/org.restlet.ext.xml-2.0.9.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/restlet/org.restlet.ext.wadl-2.0.9.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/restlet/org.restlet.ext.json-2.0.7.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/restlet/org.restlet.ext.slf4j-2.0.9.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/restlet/org.restlet.ext.xstream-2.0.9.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/restlet/org.restlet.ext.crypto-2.0.9.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/restlet/org.restlet-2.0.9.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/restlet/org.restlet.ext.servlet-2.0.9.jar!/" />
+      <root url="jar://$USER_HOME$/svn/skysale/skysail.server.restlet/trunk/src/main/webapp/WEB-INF/eclipse/plugins/restlet/org.restlet.ext.jackson-2.0.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
